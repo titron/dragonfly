@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 27/08/2011 20:23:00
+#
+$CMP TUSB2046
+D USB FS 4 port HUB
+K USB HUB
+$ENDCMP
+#
+#End Doc Library

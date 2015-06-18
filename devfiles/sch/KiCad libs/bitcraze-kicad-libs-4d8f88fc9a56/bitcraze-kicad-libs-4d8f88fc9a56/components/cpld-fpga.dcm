@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 26 Jun 2011 01:43:51 AM CEST
+#
+$CMP XC2C32A-VQ44
+D 32 macrocels low power CPLD
+K CPLD xilinx
+$ENDCMP
+#
+$CMP XC2C64A-VQ44
+D 64 Macrocels low power CPLD
+K CPLD xilinx
+$ENDCMP
+#
+#End Doc Library

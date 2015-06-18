@@ -1,0 +1,61 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 12/06/2014 10:07:50
+
+#Cmp ( order = Value )
+| BATTERY      BT1       
+| 1.0pF        C10       
+| 1.5pF        C9        
+| 4.7pF        C12       
+4 15pF         C2,C3,C29,C35       
+2 2.2nF        C11,C17       
+5 10nF         C8,C13,C16,C32,C40       
+| 33nF         C15       
+12 100nF       C1,C4,C5,C14,C18,C20,C23,C24,C33,C36,C38,C41       
+| 0.22uF       C21       
+7 4.7uF        C6,C7,C22,C30,C31,C34,C37       
+| 10uF         C39       
+| RED LED      D5        
+| GREEN LED    D6        
+2 BLUE LED     D7,D8        
+4 BAT54        D1,D2,D3,D4        
+| 2.7nH        L3        
+| 3.9nH        L1        
+| 8.2nH        L2        
+| CONN_1       P9        
+6 CONN_2       P1,P2,P3,P4,P5,P8        
+| CONN_10X2    P6        
+| MICRO-B-USB  P7        
+4 PMV31XN      Q1,Q2,Q3,Q4        
+2 2N7002       Q5,Q6        
+2 0R           R19,R29       
+| 10R          R17       
+4 100R         R39,R40,R41,R42       
+| 220R         R6        
+| 330R         R5        
+2 1k           R22,R38       
+2 1.2k         R24,R26       
+2 2.2k         R13,R14       
+12 10k         R1,R2,R3,R4,R8,R9,R25,R27,R32,R33,R36,R37       
+| 20k          R30       
+| 22k          R12       
+2 30k          R18,R28       
+| 39k          R16       
+| 42.2k        R20       
+2 100k         R7,R31       
+| 150k         R23       
+| 300k         R21       
+2 NM           R10,R11       
+| PUSH ON/OFF  SW1       
+| STM32F103CB  U1        
+| MPU60X0      U3        
+| MS5611-01BA03 U5        
+| BQ24075      U8        
+| HMC5883L     U4        
+| NRF24L01+    U2        
+2 TPS79301     U7,U9        
+| MAX16054     U10       
+| NUF2221      U6        
+| 16Mhz        X1        
+| CHIP_ANTENNA Y1        
+#End Cmp
+
+#End List

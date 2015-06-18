@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Fri 12 Aug 2011 04:05:24 PM CEST
+#
+$CMP PI6C4511
+D PLL clock multiplier
+K PLL clock multiplier
+$ENDCMP
+#
+#End Doc Library

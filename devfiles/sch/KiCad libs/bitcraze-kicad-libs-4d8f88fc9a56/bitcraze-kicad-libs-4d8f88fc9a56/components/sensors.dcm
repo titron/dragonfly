@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed 27 Apr 2011 11:34:58 PM CEST
+#
+$CMP MCP9700A-E/TO
+D Analog temperature sensor
+$ENDCMP
+#
+#End Doc Library

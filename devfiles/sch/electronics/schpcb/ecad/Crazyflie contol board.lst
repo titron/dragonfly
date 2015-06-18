@@ -1,0 +1,121 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 11:10:47
+
+#Cmp ( order = Value )
+| BATTERY      BT1       ; JST-B2B-ZR  
+| 1.0pF        C10       ; SM0603_Capa 
+| 1.5pF        C9        ; SM0603_Capa 
+| 4.7pF        C12       ; SM0603_Capa 
+| 15pF         C2        ; SM0603_Capa 
+| 15pF         C3        ; SM0603_Capa 
+| 15pF         C29       ; SM0603_Capa 
+| 15pF         C35       ; SM0603_Capa 
+| 2.2nF        C11       ; SM0603_Capa 
+| 2.2nF        C17       ; SM0603_Capa 
+| 10nF         C8        ; SM0603_Capa 
+| 10nF         C13       ; SM0603_Capa 
+| 10nF         C16       ; SM0603_Capa 
+| 10nF         C32       ; SM0603_Capa 
+| 10nF         C40       ; SM0603_Capa 
+| 33nF         C15       ; SM0603_Capa 
+| 100nF        C1        ; SM0603_Capa 
+| 100nF        C4        ; SM0603_Capa 
+| 100nF        C5        ; SM0603_Capa 
+| 100nF        C14       ; SM0603_Capa 
+| 100nF        C18       ; SM0603_Capa 
+| 100nF        C20       ; SM0603_Capa 
+| 100nF        C23       ; SM0603_Capa 
+| 100nF        C24       ; SM0603_Capa 
+| 100nF        C33       ; SM0603_Capa 
+| 100nF        C36       ; SM0603_Capa 
+| 100nF        C38       ; SM0603_Capa 
+| 100nF        C41       ; SM0603_Capa 
+| 0.22uF       C21       ; SM0603_Capa 
+| 4.7uF        C6        ; SM0603_Capa 
+| 4.7uF        C7        ; SM0603_Capa 
+| 4.7uF        C22       ; SM0603_Capa 
+| 4.7uF        C30       ; SM0603_Capa 
+| 4.7uF        C31       ; SM0603_Capa 
+| 4.7uF        C34       ; SM0603_Capa 
+| 4.7uF        C37       ; SM0603_Capa 
+| 10uF         C39       ; SM0603_Capa 
+| RED LED      D5        ; SMDLED-0603 
+| GREEN LED    D6        ; SMDLED-0603 
+| BLUE LED     D7        ; SMDLED-0603 
+| BLUE LED     D8        ; SMDLED-0603 
+| BAT54        D1        ; SOD323      
+| BAT54        D2        ; SOD323      
+| BAT54        D3        ; SOD323      
+| BAT54        D4        ; SOD323      
+| 2.7nH        L3        ; SM0603_Capa 
+| 3.9nH        L1        ; SM0603_Capa 
+| 8.2nH        L2        ; SM0603_Capa 
+| CONN_1       P9        ; PINHEADER_127_1X1
+| CONN_2       P1        ; PINHEADER_127_2X1
+| CONN_2       P2        ; PINHEADER_127_2X1
+| CONN_2       P3        ; PINHEADER_127_2X1
+| CONN_2       P4        ; PINHEADER_127_2X1
+| CONN_2       P5        ; PINHEADER_127_2X1
+| CONN_2       P8        ; PINHEADER_127_2X1
+| CONN_10X2    P6        ; PINHEADER_127_2X10
+| MICRO-B-USB  P7        ; ZX62-B-5PA_11_CFK
+| PMV31XN      Q1        ; SOT23GDS    
+| PMV31XN      Q2        ; SOT23GDS    
+| PMV31XN      Q3        ; SOT23GDS    
+| PMV31XN      Q4        ; SOT23GDS    
+| 2N7002       Q5        ; SOT23GDS    
+| 2N7002       Q6        ; SOT23GDS    
+| 0R           R19       ; SM0603      
+| 0R           R29       ; SM0603      
+| 10R          R17       ; SM0603      
+| 100R         R39       ; SM0402      
+| 100R         R40       ; SM0402      
+| 100R         R41       ; SM0402      
+| 100R         R42       ; SM0402      
+| 220R         R6        ; SM0603      
+| 330R         R5        ; SM0603      
+| 1k           R22       ; SM0603      
+| 1k           R38       ; SM0603      
+| 1.2k         R24       ; SM0603      
+| 1.2K         R26       ; SM0603      
+| 2.2k         R13       ; SM0603      
+| 2.2k         R14       ; SM0603      
+| 10k          R1        ; SM0402      
+| 10k          R2        ; SM0402      
+| 10k          R3        ; SM0402      
+| 10k          R4        ; SM0402      
+| 10k          R8        ; SM0603      
+| 10k          R9        ; SM0603      
+| 10k          R25       ; SM0603      
+| 10k          R27       ; SM0603      
+| 10k          R32       ; SM0603      
+| 10k          R33       ; SM0603      
+| 10k          R36       ; SM0603      
+| 10k          R37       ; SM0603      
+| 20k          R30       ; SM0603      
+| 22k          R12       ; SM0603      
+| 30k          R18       ; SM0603      
+| 30k          R28       ; SM0603      
+| 39k          R16       ; SM0603      
+| 42.2k        R20       ; SM0603      
+| 100k         R7        ; SM0603      
+| 100k         R31       ; SM0603      
+| 150k         R23       ; SM0603      
+| 300k         R21       ; SM0603      
+| NM           R10       ; SM0603      
+| NM           R11       ; SM0603      
+| PUSH ON/OFF  SW1       ; SPST-NO-4x2.5
+| STM32F103CB  U1        ; LQFP-48     
+| MPU60X0      U3        ; MPU60X0     
+| MS5611-01BA03 U5        ; MS5611      
+| BQ24075      U8        ; QFN16       
+| HMC5883L     U4        ; QFN16_HMC5883L
+| NRF24L01+    U2        ; QFN20-4x4mm 
+| TPS79301     U7        ; SOT23_6     
+| TPS79301     U9        ; SOT23_6     
+| MAX16054     U10       ; SOT23_6     
+| NUF2221      U6        ; SOT363      
+| 16Mhz        X1        ; XTAL-5.0x3.2
+| CHIP_ANTENNA Y1        ; CHIP-ANT-6.5x2.2
+#End Cmp
+
+#End List

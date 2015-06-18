@@ -1,0 +1,32 @@
+Drill report for E:\DIY\quadCopter\sch\electronics\schpcb\ecad\Crazyflie contol board.kicad_pcb
+Created on 07/06/2014 15:45:03
+Drill report for plated through holes :
+T1  0.38mm  0.015"  (145 holes)
+T2  0.60mm  0.024"  (32 holes)
+T3  0.70mm  0.028"  (3 holes)
+
+Total plated holes count 180
+
+
+Drill report for buried and blind vias :
+
+Drill report for holes from layer Back_L4 to layer Vcc_L3 :
+
+Total plated holes count 0
+
+
+Drill report for holes from layer Vcc_L3 to layer Gnd_L2 :
+
+Total plated holes count 0
+
+
+Drill report for holes from layer Gnd_L2 to layer Front_L1 :
+
+Total plated holes count 0
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 11 Dec 2011 10:45:44 PM CET
+#
+$CMP MAX1551
+D MAX1551/1555 Li-Po charger
+K li-po charger
+$ENDCMP
+#
+$CMP MAX155X
+D MAX1551/1555 Li-Po charger
+K li-po charger
+$ENDCMP
+#
+#End Doc Library
