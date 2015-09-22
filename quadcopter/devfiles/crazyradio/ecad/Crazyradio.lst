@@ -1,0 +1,80 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2015/9/10 15:33:06
+#Cmp ( order = Reference )
+| C1         33nF        ;             
+| C2         33nF        ;             
+| C3         15pF        ;             
+| C4         15pF        ;             
+| C5         10uF        ;             
+| C6         10nF        ;             
+| C7         10nF        ;             
+| C8         100nF       ;             
+| C9         10nF        ;             
+| C10        10uF        ;             
+| C11        2.2nF       ;             
+| C12        1.2pF       ;             
+| C13        1.0pF       ;             
+| D1         DIODESCH    ;             
+| D2         DIODESCH    ;             
+| D3         LED2        ;             
+| D4         LED1        ;             
+| L1         6.8nH       ;             
+| L2         4.7nH       ;             
+| L3         6.8nH       ;             
+| P1         USB-A-MALE  ;             
+| P2         CONN_5X2    ;             
+| R1         22R         ;             
+| R2         22R         ;             
+| R3         10R         ;             
+| R4         10K         ;             
+| R5         22K         ;             
+| R6         10K         ;             
+| R7         1.5k        ;             
+| R8         1.5k        ;             
+| R9         10K         ;             
+| U1         LP2985-33   ;             
+| U2         M74VHC1GT50 ;             
+| U3         NRF24LU1+   ;             
+| X1         CRYSTAL_SMD ; TXC         
+| Y1         CONREVSMA   ;             
+#End Cmp
+
+#元件 ( 顺序 = 数值 )
+| 1.0pF        C13       ;             
+| 1.2pF        C12       ;             
+| 15pF         C3        ;             
+| 15pF         C4        ;             
+| 2.2nF        C11       ;             
+| 10nF         C6        ;             
+| 10nF         C7        ;             
+| 10nF         C9        ;             
+| 33nF         C1        ;             
+| 33nF         C2        ;             
+| 100nF        C8        ;             
+| 10uF         C5        ;             
+| 10uF         C10       ;             
+| DIODESCH     D1        ;             
+| DIODESCH     D2        ;             
+| LED2         D3        ;             
+| LED1         D4        ;             
+| 4.7nH        L2        ;             
+| 6.8nH        L1        ;             
+| 6.8nH        L3        ;             
+| USB-A-MALE   P1        ;             
+| CONN_5X2     P2        ;             
+| 10R          R3        ;             
+| 22R          R1        ;             
+| 22R          R2        ;             
+| 1.5k         R7        ;             
+| 1.5k         R8        ;             
+| 10K          R4        ;             
+| 10K          R6        ;             
+| 10K          R9        ;             
+| 22K          R5        ;             
+| LP2985-33    U1        ;             
+| M74VHC1GT50  U2        ;             
+| NRF24LU1+    U3        ;             
+| CRYSTAL_SMD  X1        ; TXC         
+| CONREVSMA    Y1        ;             
+#元件列表结束
+
+#列表结束

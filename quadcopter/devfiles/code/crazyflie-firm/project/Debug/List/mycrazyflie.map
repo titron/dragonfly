@@ -1,0 +1,2156 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 08/Sep/2015  17:11:52
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Exe\mycrazyflie.out
+#    Map file     =  
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\List\mycrazyflie.map
+#    Command line =  
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\abort.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\adc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\cfassert.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\comm.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\commander.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\configblock.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\console.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\controller.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\core_cm3.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\cpuid.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\crc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\croutine.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\crtp.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\crtpservice.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\debug.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\eprintf.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\eskylink.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\exti.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\filter.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\fp16.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\freeRTOSdebug.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\heap_2.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\hmc5883l.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\i2cdev.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\i2croutines.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\imu.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\info.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\led.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\ledseq.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\list.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\main.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\misc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\motors.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\mpu6050.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\ms5611.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\nrf24l01.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\nvic.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\param.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\pid.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\pidctrl.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\pm.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\port.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\portasm.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\queue.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\radiolink.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\sensfusion6.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stabilizer.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\startup_stm32f10x_md.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_adc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_bkp.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_can.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_crc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_dac.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_dbgmcu.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_dma.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_exti.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_flash.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_fsmc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_gpio.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_i2c.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_iwdg.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_pwr.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_rcc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_rtc.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_sdio.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_spi.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_tim.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_usart.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\stm32f10x_wwdg.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\system.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\system_stm32f10x.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\tasks.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\timers.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\uart.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\usec_time.o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj\worker.o
+#        -o
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Exe\mycrazyflie.out
+#        --map
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\List\mycrazyflie.map
+#        --log sections,unused_fragments --log_file
+#        D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\List\mycrazyflie.log
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\ST\stm32f103xB.icf" --semihosting --entry
+#        __iar_program_start --vfe --enable_stack_usage
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Lo007]: [stack usage analysis] at least one function does not have
+          stack usage information. Example: "xPortPendSVHandler". A complete
+          list of such functions is in the map file.
+Warning[Lo009]: [stack usage analysis] the program contains at least one
+          indirect call. Example: from "crtpRxTask" in crtp.o [1]. A complete
+          list of such functions is in the map file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20004fff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A1":                                        0xec
+  .intvec             ro code  0x08000000    0xec  startup_stm32f10x_md.o [1]
+                             - 0x080000ec    0xec
+
+"P1":                                      0xb3e0
+  .text               ro code  0x080000ec   0xad0  tasks.o [1]
+  .text               ro code  0x08000bbc    0xe0  port.o [1]
+  .text               ro code  0x08000c9c    0x9e  list.o [1]
+  .text               ro code  0x08000d3a    0x2e  copy_init3.o [5]
+  .text               ro code  0x08000d68   0x3f4  timers.o [1]
+  CODE                ro code  0x0800115c    0x94  portasm.o [1]
+  .text               ro code  0x080011f0     0x4  freeRTOSdebug.o [1]
+  .text               ro code  0x080011f4   0x14c  heap_2.o [1]
+  .text               ro code  0x08001340   0x614  queue.o [1]
+  .text               ro code  0x08001954     0xc  memcpy.o [3]
+  .text               ro code  0x08001960    0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x080019d6    0x22  zero_init3.o [5]
+  .text               ro code  0x080019f8   0x894  i2croutines.o [1]
+  .text               ro code  0x0800228c    0x30  I32ToDbl.o [4]
+  .text               ro code  0x080022bc   0x1a2  DblMul.o [4]
+  .rodata             const    0x0800245e     0x2  heap_2.o [1]
+  .text               ro code  0x08002460    0x58  DblToI32.o [4]
+  .text               ro code  0x080024b8   0x204  stm32f10x_dma.o [1]
+  .text               ro code  0x080026bc   0x39c  stm32f10x_rcc.o [1]
+  .text               ro code  0x08002a58   0x240  stm32f10x_gpio.o [1]
+  .text               ro code  0x08002c98    0x88  misc.o [1]
+  .text               ro code  0x08002d20   0x160  stm32f10x_i2c.o [1]
+  .rodata             const    0x08002e80    0x44  crtp.o [1]
+  .text               ro code  0x08002ec8   0x860  pow.o [4]
+  .text               ro code  0x08003728    0x42  xdnorm.o [4]
+  .text               ro code  0x0800376a    0x7e  xdint.o [4]
+  .text               ro code  0x080037e8    0x20  DblCmpEq.o [4]
+  .text               ro code  0x08003808     0xc  errno.o [3]
+  .text               ro code  0x08003814    0x2e  DblCmpGe.o [4]
+  .text               ro code  0x08003844    0x2e  DblCmpLe.o [4]
+  .text               ro code  0x08003874    0xe8  DblAdd.o [4]
+  .text               ro code  0x0800395c   0x180  DblSub.o [4]
+  .text               ro code  0x08003adc   0x246  DblDiv.o [4]
+  .text               ro code  0x08003d24    0xac  xlog.o [4]
+  .text               ro code  0x08003dd0   0x2a4  xexp.o [4]
+  .text               ro code  0x08004074     0x2  xtls.o [3]
+  .text               ro code  0x08004076    0x32  xdtest.o [4]
+  .text               ro code  0x080040a8   0x10c  xdscale.o [4]
+  .text               ro code  0x080041b4   0x7f6  stabilizer.o [1]
+  .text               ro code  0x080049ac   0x178  motors.o [1]
+  .text               ro code  0x08004b24   0x7b8  imu.o [1]
+  .text               ro code  0x080052dc   0x7e8  sensfusion6.o [1]
+  .text               ro code  0x08005ac4   0x31c  controller.o [1]
+  .text               ro code  0x08005de0   0x17c  system.o [1]
+  .text               ro code  0x08005f5c   0x1e0  commander.o [1]
+  .text               ro code  0x0800613c    0xd8  FltMul.o [4]
+  .text               ro code  0x08006214    0x84  FltAdd.o [4]
+  .text               ro code  0x08006298   0x434  ms5611.o [1]
+  .text               ro code  0x080066cc    0xe6  FltSub.o [4]
+  .text               ro code  0x080067b4   0x448  pm.o [1]
+  .text               ro code  0x08006bfc    0xe0  pid.o [1]
+  .text               ro code  0x08006cdc    0xfc  FltDiv.o [4]
+  .text               ro code  0x08006dd8    0x44  FltToS32.o [4]
+  .text               ro code  0x08006e1c    0x24  FltCmpLe.o [4]
+  .text               ro code  0x08006e40    0x4e  FltToDbl.o [4]
+  .text               ro code  0x08006e90    0x24  FltCmpGe.o [4]
+  .text               ro code  0x08006eb4   0x2ec  stm32f10x_tim.o [1]
+  .text               ro code  0x080071a0    0x24  stm32f10x_dbgmcu.o [1]
+  .text               ro code  0x080071c4   0x5ec  i2cdev.o [1]
+  .text               ro code  0x080077b0   0x680  mpu6050.o [1]
+  .text               ro code  0x08007e30   0x2c0  hmc5883l.o [1]
+  .text               ro code  0x080080f0    0xbc  configblock.o [1]
+  .text               ro code  0x080081ac     0x6  cos.o [4]
+  .text               ro code  0x080081b4    0x90  DblToFlt.o [4]
+  .text               ro code  0x08008244     0x6  sin.o [4]
+  .text               ro code  0x0800824c   0x300  ledseq.o [1]
+  .text               ro code  0x0800854c    0x32  I32ToFlt.o [4]
+  .text               ro code  0x08008580     0x6  ABImemclr4.o [5]
+  .text               ro code  0x08008588   0x132  I64DivMod.o [5]
+  .text               ro code  0x080086ba    0x3a  filter.o [1]
+  .text               ro code  0x080086f4    0x1c  FltCmpEq.o [4]
+  .text               ro code  0x08008710    0xcc  atan2.o [4]
+  .text               ro code  0x080087dc    0xf6  asin.o [4]
+  .text               ro code  0x080088d4    0x98  worker.o [1]
+  .text               ro code  0x0800896c   0x368  adc.o [1]
+  .text               ro code  0x08008cd4    0x68  comm.o [1]
+  .text               ro code  0x08008d3c    0xbc  led.o [1]
+  .text               ro code  0x08008df8   0x22c  crtp.o [1]
+  .text               ro code  0x08009024    0x58  I64ToDbl.o [4]
+  .text               ro code  0x0800907c    0x62  I64ToFlt.o [4]
+  .text               ro code  0x080090e0   0x2a8  radiolink.o [1]
+  .text               ro code  0x08009388   0x42a  xsin.o [4]
+  .text               ro code  0x080097b4    0x32  ABImemset48.o [5]
+  .text               ro code  0x080097e8     0x2  I64DivZer.o [5]
+  .rodata             const    0x080097ec     0xc  ledseq.o [1]
+  .text               ro code  0x080097f8   0x1e0  xatan.o [4]
+  .text               ro code  0x080099d8    0xf0  sqrt.o [4]
+  .text               ro code  0x08009ac8   0x26c  stm32f10x_adc.o [1]
+  .text               ro code  0x08009d34    0x56  crtpservice.o [1]
+  .text               ro code  0x08009d8c    0x54  console.o [1]
+  .text               ro code  0x08009de0   0x448  param.o [1]
+  .text               ro code  0x0800a228    0x1a  cfassert.o [1]
+  .text               ro code  0x0800a244   0x438  nrf24l01.o [1]
+  .text               ro code  0x0800a67c   0x160  xquad.o [4]
+  .text               ro code  0x0800a7dc     0xc  iarEdom.o [5]
+  .text               ro code  0x0800a7e8    0x90  crc.o [1]
+  .text               ro code  0x0800a878    0x36  strlen.o [5]
+  .text               ro code  0x0800a8b0    0x7c  stm32f10x_spi.o [1]
+  .text               ro code  0x0800a92c    0x58  exti.o [1]
+  .text               ro code  0x0800a984    0xcc  stm32f10x_exti.o [1]
+  .text               ro code  0x0800aa50   0x1a8  fmod.o [4]
+  .text               ro code  0x0800abf8    0xf8  stm32f10x_usart.o [1]
+  .text               ro code  0x0800acf0    0xe4  uart.o [1]
+  .text               ro code  0x0800add4    0xe0  nvic.o [1]
+  .text               ro code  0x0800aeb4    0xbc  main.o [1]
+  .text               ro code  0x0800af70    0x84  usec_time.o [1]
+  .text               ro code  0x0800aff4    0x3c  stm32f10x_flash.o [1]
+  .rodata             const    0x0800b030    0x48  nrf24l01.o [1]
+  .rodata             const    0x0800b078    0x28  pm.o [1]
+  .text               ro code  0x0800b0a0    0x28  data_init.o [5]
+  .iar.init_table     const    0x0800b0c8    0x24  - Linker created -
+  .text               ro code  0x0800b0ec    0x1a  cmain.o [5]
+  .text               ro code  0x0800b106     0x4  low_level_init.o [3]
+  .text               ro code  0x0800b10a     0x4  exit.o [3]
+  .text               ro code  0x0800b110     0xa  cexit.o [5]
+  .text               ro code  0x0800b11c    0x14  exit.o [6]
+  .rodata             const    0x0800b130    0x18  crtp.o [1]
+  .rodata             const    0x0800b148    0x10  crtp.o [1]
+  .rodata             const    0x0800b158     0xc  ms5611.o [1]
+  .rodata             const    0x0800b164     0xc  ms5611.o [1]
+  .rodata             const    0x0800b170     0xc  radiolink.o [1]
+  .rodata             const    0x0800b17c     0xc  stabilizer.o [1]
+  .text               ro code  0x0800b188     0xc  cstartup_M.o [5]
+  .rodata             const    0x0800b194     0x8  crtp.o [1]
+  .rodata             const    0x0800b19c     0x8  crtp.o [1]
+  .rodata             const    0x0800b1a4     0x8  hmc5883l.o [1]
+  .rodata             const    0x0800b1ac     0x8  hmc5883l.o [1]
+  .rodata             const    0x0800b1b4     0x8  hmc5883l.o [1]
+  .rodata             const    0x0800b1bc     0x8  hmc5883l.o [1]
+  .rodata             const    0x0800b1c4     0x8  hmc5883l.o [1]
+  .rodata             const    0x0800b1cc     0x8  hmc5883l.o [1]
+  .rodata             const    0x0800b1d4     0x8  mpu6050.o [1]
+  .rodata             const    0x0800b1dc     0x8  mpu6050.o [1]
+  .rodata             const    0x0800b1e4     0x8  mpu6050.o [1]
+  .rodata             const    0x0800b1ec     0x8  mpu6050.o [1]
+  .rodata             const    0x0800b1f4     0x8  mpu6050.o [1]
+  .rodata             const    0x0800b1fc     0x8  mpu6050.o [1]
+  .rodata             const    0x0800b204     0x8  nrf24l01.o [1]
+  .rodata             const    0x0800b20c     0x8  param.o [1]
+  .rodata             const    0x0800b214     0x8  pm.o [1]
+  .rodata             const    0x0800b21c     0x8  radiolink.o [1]
+  .rodata             const    0x0800b224     0x8  system.o [1]
+  .rodata             const    0x0800b22c     0x8  tasks.o [1]
+  .rodata             const    0x0800b234     0x8  timers.o [1]
+  .rodata             const    0x0800b23c     0x8  timers.o [1]
+  .text               ro code  0x0800b244     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b248     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b24c     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b250     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b254     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b258     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b25c     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b260     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b264     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b268     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b26c     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b270     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b274     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b278     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b27c     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b280     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b284     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b288     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b28c     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b290     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b294     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b298     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b29c     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2a0     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2a4     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2a8     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2ac     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2b0     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2b4     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2b8     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2bc     0x4  startup_stm32f10x_md.o [1]
+  .text               ro code  0x0800b2c0     0x4  startup_stm32f10x_md.o [1]
+  .rodata             const    0x0800b2c4     0x0  zero_init3.o [5]
+  .rodata             const    0x0800b2c4     0x0  copy_init3.o [5]
+  Initializer bytes   ro data  0x0800b2c4   0x208  <for P2 s0>
+                             - 0x0800b4cc  0xb3e0
+
+"P2", part 1 of 3:                          0x208
+  P2 s0                        0x20000000   0x208  <Init block>
+    .data             inited   0x20000000    0x78  ledseq.o [1]
+    .data             inited   0x20000078    0x24  ledseq.o [1]
+    .data             inited   0x2000009c    0x18  ledseq.o [1]
+    .data             inited   0x200000b4    0x18  ledseq.o [1]
+    .data             inited   0x200000cc    0x18  ledseq.o [1]
+    .data             inited   0x200000e4    0x18  ledseq.o [1]
+    .data             inited   0x200000fc    0x18  ledseq.o [1]
+    .data             inited   0x20000114    0x18  ledseq.o [1]
+    .data             inited   0x2000012c    0x14  crtp.o [1]
+    .data             inited   0x20000140    0x14  radiolink.o [1]
+    .data             inited   0x20000154    0x10  ledseq.o [1]
+    .data             inited   0x20000164    0x10  ledseq.o [1]
+    .data             inited   0x20000174    0x10  stm32f10x_rcc.o [1]
+    .data             inited   0x20000184     0x8  led.o [1]
+    .data             inited   0x2000018c     0x8  led.o [1]
+    .data             inited   0x20000194     0x8  led.o [1]
+    .data             inited   0x2000019c     0x4  crtp.o [1]
+    .data             inited   0x200001a0     0x4  heap_2.o [1]
+    .data             inited   0x200001a4     0x4  pm.o [1]
+    .data             inited   0x200001a8     0x4  pm.o [1]
+    .data             inited   0x200001ac     0x4  pm.o [1]
+    .data             inited   0x200001b0     0x4  port.o [1]
+    .data             inited   0x200001b4     0x4  sensfusion6.o [1]
+    .data             inited   0x200001b8     0x4  sensfusion6.o [1]
+    .data             inited   0x200001bc     0x4  sensfusion6.o [1]
+    .data             inited   0x200001c0     0x4  stabilizer.o [1]
+    .data             inited   0x200001c4     0x4  stabilizer.o [1]
+    .data             inited   0x200001c8     0x4  stabilizer.o [1]
+    .data             inited   0x200001cc     0x4  stabilizer.o [1]
+    .data             inited   0x200001d0     0x4  stabilizer.o [1]
+    .data             inited   0x200001d4     0x4  stabilizer.o [1]
+    .data             inited   0x200001d8     0x4  stabilizer.o [1]
+    .data             inited   0x200001dc     0x4  stabilizer.o [1]
+    .data             inited   0x200001e0     0x4  stabilizer.o [1]
+    .data             inited   0x200001e4     0x4  stabilizer.o [1]
+    .data             inited   0x200001e8     0x4  stabilizer.o [1]
+    .data             inited   0x200001ec     0x4  stabilizer.o [1]
+    .data             inited   0x200001f0     0x4  stabilizer.o [1]
+    .data             inited   0x200001f4     0x4  stabilizer.o [1]
+    .data             inited   0x200001f8     0x4  stm32f10x_rcc.o [1]
+    .data             inited   0x200001fc     0x4  tasks.o [1]
+    __DLIB_PERTHREAD  inited   0x20000200     0x4  errno.o [3]
+    .data             inited   0x20000204     0x2  stabilizer.o [1]
+    .data             inited   0x20000206     0x2  stabilizer.o [1]
+                             - 0x20000208   0x208
+
+"P2", part 2 of 3:                         0x4428
+  .bss                zero     0x20000208  0x36b0  heap_2.o [1]
+  .bss                zero     0x200038b8   0x30c  imu.o [1]
+  .bss                zero     0x20003bc4   0x30c  imu.o [1]
+  .bss                zero     0x20003ed0    0x64  tasks.o [1]
+  .bss                zero     0x20003f34    0x50  queue.o [1]
+  .bss                zero     0x20003f84    0x48  ledseq.o [1]
+  .bss                zero     0x20003fcc    0x40  adc.o [1]
+  .bss                zero     0x2000400c    0x40  crtp.o [1]
+  .bss                zero     0x2000404c    0x40  crtp.o [1]
+  .bss                zero     0x2000408c    0x40  uart.o [1]
+  .bss                zero     0x200040cc    0x38  controller.o [1]
+  .bss                zero     0x20004104    0x38  controller.o [1]
+  .bss                zero     0x2000413c    0x38  controller.o [1]
+  .bss                zero     0x20004174    0x38  controller.o [1]
+  .bss                zero     0x200041ac    0x38  controller.o [1]
+  .bss                zero     0x200041e4    0x38  controller.o [1]
+  .bss                zero     0x2000421c    0x38  stabilizer.o [1]
+  .bss                zero     0x20004254    0x2c  i2croutines.o [1]
+  .bss                zero     0x20004280    0x24  radiolink.o [1]
+  .bss                zero     0x200042a4    0x20  commander.o [1]
+  .bss                zero     0x200042c4    0x20  console.o [1]
+  .bss                zero     0x200042e4    0x20  param.o [1]
+  .bss                zero     0x20004304    0x14  i2cdev.o [1]
+  .bss                zero     0x20004318    0x14  tasks.o [1]
+  .bss                zero     0x2000432c    0x14  tasks.o [1]
+  .bss                zero     0x20004340    0x14  tasks.o [1]
+  .bss                zero     0x20004354    0x14  tasks.o [1]
+  .bss                zero     0x20004368    0x14  tasks.o [1]
+  .bss                zero     0x2000437c    0x14  timers.o [1]
+  .bss                zero     0x20004390    0x14  timers.o [1]
+  .bss                zero     0x200043a4    0x10  mpu6050.o [1]
+  .bss                zero     0x200043b4     0xc  imu.o [1]
+  .bss                zero     0x200043c0     0xc  ms5611.o [1]
+  .bss                zero     0x200043cc     0xc  param.o [1]
+  .bss                zero     0x200043d8     0xc  param.o [1]
+  .bss                zero     0x200043e4     0xc  stabilizer.o [1]
+  .bss                zero     0x200043f0     0xc  stabilizer.o [1]
+  .bss                zero     0x200043fc     0xc  stabilizer.o [1]
+  .bss                zero     0x20004408     0x8  heap_2.o [1]
+  .bss                zero     0x20004410     0x8  heap_2.o [1]
+  .bss                zero     0x20004418     0x8  hmc5883l.o [1]
+  .bss                zero     0x20004420     0x8  imu.o [1]
+  .bss                zero     0x20004428     0x8  imu.o [1]
+  .bss                zero     0x20004430     0x8  imu.o [1]
+  .bss                zero     0x20004438     0x8  imu.o [1]
+  .bss                zero     0x20004440     0x8  imu.o [1]
+  .bss                zero     0x20004448     0x8  ledseq.o [1]
+  .bss                zero     0x20004450     0x8  ledseq.o [1]
+  .bss                zero     0x20004458     0x4  adc.o [1]
+  .bss                zero     0x2000445c     0x4  commander.o [1]
+  .bss                zero     0x20004460     0x4  commander.o [1]
+  .bss                zero     0x20004464     0x4  configblock.o [1]
+  .bss                zero     0x20004468     0x4  console.o [1]
+  .bss                zero     0x2000446c     0x4  controller.o [1]
+  .bss                zero     0x20004470     0x4  controller.o [1]
+  .bss                zero     0x20004474     0x4  controller.o [1]
+  .bss                zero     0x20004478     0x4  crtp.o [1]
+  .bss                zero     0x2000447c     0x4  crtp.o [1]
+  .bss                zero     0x20004480     0x4  crtp.o [1]
+  .bss                zero     0x20004484     0x4  heap_2.o [1]
+  .bss                zero     0x20004488     0x4  hmc5883l.o [1]
+  .bss                zero     0x2000448c     0x4  i2cdev.o [1]
+  .bss                zero     0x20004490     0x4  i2cdev.o [1]
+  .bss                zero     0x20004494     0x4  i2cdev.o [1]
+  .bss                zero     0x20004498     0x4  i2cdev.o [1]
+  .bss                zero     0x2000449c     0x4  i2croutines.o [1]
+  .bss                zero     0x200044a0     0x4  i2croutines.o [1]
+  .bss                zero     0x200044a4     0x4  i2croutines.o [1]
+  .bss                zero     0x200044a8     0x4  imu.o [1]
+  .bss                zero     0x200044ac     0x4  imu.o [1]
+  .bss                zero     0x200044b0     0x4  imu.o [1]
+  .bss                zero     0x200044b4     0x4  imu.o [1]
+  .bss                zero     0x200044b8     0x4  imu.o [1]
+  .bss                zero     0x200044bc     0x4  ledseq.o [1]
+  .bss                zero     0x200044c0     0x4  mpu6050.o [1]
+  .bss                zero     0x200044c4     0x4  ms5611.o [1]
+  .bss                zero     0x200044c8     0x4  ms5611.o [1]
+  .bss                zero     0x200044cc     0x4  ms5611.o [1]
+  .bss                zero     0x200044d0     0x4  nrf24l01.o [1]
+  .bss                zero     0x200044d4     0x4  param.o [1]
+  .bss                zero     0x200044d8     0x4  param.o [1]
+  .bss                zero     0x200044dc     0x4  param.o [1]
+  .bss                zero     0x200044e0     0x4  param.o [1]
+  .bss                zero     0x200044e4     0x4  pm.o [1]
+  .bss                zero     0x200044e8     0x4  pm.o [1]
+  .bss                zero     0x200044ec     0x4  pm.o [1]
+  .bss                zero     0x200044f0     0x4  pm.o [1]
+  .bss                zero     0x200044f4     0x4  radiolink.o [1]
+  .bss                zero     0x200044f8     0x4  radiolink.o [1]
+  .bss                zero     0x200044fc     0x4  radiolink.o [1]
+  .bss                zero     0x20004500     0x4  radiolink.o [1]
+  .bss                zero     0x20004504     0x4  radiolink.o [1]
+  .bss                zero     0x20004508     0x4  sensfusion6.o [1]
+  .bss                zero     0x2000450c     0x4  sensfusion6.o [1]
+  .bss                zero     0x20004510     0x4  sensfusion6.o [1]
+  .bss                zero     0x20004514     0x4  sensfusion6.o [1]
+  .bss                zero     0x20004518     0x4  sensfusion6.o [1]
+  .bss                zero     0x2000451c     0x4  sensfusion6.o [1]
+  .bss                zero     0x20004520     0x4  stabilizer.o [1]
+  .bss                zero     0x20004524     0x4  stabilizer.o [1]
+  .bss                zero     0x20004528     0x4  stabilizer.o [1]
+  .bss                zero     0x2000452c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004530     0x4  stabilizer.o [1]
+  .bss                zero     0x20004534     0x4  stabilizer.o [1]
+  .bss                zero     0x20004538     0x4  stabilizer.o [1]
+  .bss                zero     0x2000453c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004540     0x4  stabilizer.o [1]
+  .bss                zero     0x20004544     0x4  stabilizer.o [1]
+  .bss                zero     0x20004548     0x4  stabilizer.o [1]
+  .bss                zero     0x2000454c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004550     0x4  stabilizer.o [1]
+  .bss                zero     0x20004554     0x4  stabilizer.o [1]
+  .bss                zero     0x20004558     0x4  stabilizer.o [1]
+  .bss                zero     0x2000455c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004560     0x4  stabilizer.o [1]
+  .bss                zero     0x20004564     0x4  stabilizer.o [1]
+  .bss                zero     0x20004568     0x4  stabilizer.o [1]
+  .bss                zero     0x2000456c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004570     0x4  stabilizer.o [1]
+  .bss                zero     0x20004574     0x4  stabilizer.o [1]
+  .bss                zero     0x20004578     0x4  stabilizer.o [1]
+  .bss                zero     0x2000457c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004580     0x4  stabilizer.o [1]
+  .bss                zero     0x20004584     0x4  stabilizer.o [1]
+  .bss                zero     0x20004588     0x4  stabilizer.o [1]
+  .bss                zero     0x2000458c     0x4  stabilizer.o [1]
+  .bss                zero     0x20004590     0x4  stabilizer.o [1]
+  .bss                zero     0x20004594     0x4  system.o [1]
+  .bss                zero     0x20004598     0x4  tasks.o [1]
+  .bss                zero     0x2000459c     0x4  tasks.o [1]
+  .bss                zero     0x200045a0     0x4  tasks.o [1]
+  .bss                zero     0x200045a4     0x4  tasks.o [1]
+  .bss                zero     0x200045a8     0x4  tasks.o [1]
+  .bss                zero     0x200045ac     0x4  tasks.o [1]
+  .bss                zero     0x200045b0     0x4  tasks.o [1]
+  .bss                zero     0x200045b4     0x4  tasks.o [1]
+  .bss                zero     0x200045b8     0x4  tasks.o [1]
+  .bss                zero     0x200045bc     0x4  tasks.o [1]
+  .bss                zero     0x200045c0     0x4  tasks.o [1]
+  .bss                zero     0x200045c4     0x4  tasks.o [1]
+  .bss                zero     0x200045c8     0x4  tasks.o [1]
+  .bss                zero     0x200045cc     0x4  timers.o [1]
+  .bss                zero     0x200045d0     0x4  timers.o [1]
+  .bss                zero     0x200045d4     0x4  timers.o [1]
+  .bss                zero     0x200045d8     0x4  timers.o [1]
+  .bss                zero     0x200045dc     0x4  uart.o [1]
+  .bss                zero     0x200045e0     0x4  uart.o [1]
+  .bss                zero     0x200045e4     0x4  uart.o [1]
+  .bss                zero     0x200045e8     0x4  usec_time.o [1]
+  .bss                zero     0x200045ec     0x4  worker.o [1]
+  .bss                zero     0x200045f0     0x2  stabilizer.o [1]
+  .bss                zero     0x200045f2     0x2  stabilizer.o [1]
+  .bss                zero     0x200045f4     0x2  stabilizer.o [1]
+  .bss                zero     0x200045f6     0x2  stabilizer.o [1]
+  .bss                zero     0x200045f8     0x2  stabilizer.o [1]
+  .bss                zero     0x200045fa     0x1  adc.o [1]
+  .bss                zero     0x200045fb     0x1  comm.o [1]
+  .bss                zero     0x200045fc     0x1  commander.o [1]
+  .bss                zero     0x200045fd     0x1  commander.o [1]
+  .bss                zero     0x200045fe     0x1  commander.o [1]
+  .bss                zero     0x200045ff     0x1  commander.o [1]
+  .bss                zero     0x20004600     0x1  configblock.o [1]
+  .bss                zero     0x20004601     0x1  console.o [1]
+  .bss                zero     0x20004602     0x1  controller.o [1]
+  .bss                zero     0x20004603     0x1  crtp.o [1]
+  .bss                zero     0x20004604     0x1  crtpservice.o [1]
+  .bss                zero     0x20004605     0x1  exti.o [1]
+  .bss                zero     0x20004606     0x1  hmc5883l.o [1]
+  .bss                zero     0x20004607     0x1  hmc5883l.o [1]
+  .bss                zero     0x20004608     0x1  hmc5883l.o [1]
+  .bss                zero     0x20004609     0x1  i2croutines.o [1]
+  .bss                zero     0x2000460a     0x1  i2croutines.o [1]
+  .bss                zero     0x2000460b     0x1  i2croutines.o [1]
+  .bss                zero     0x2000460c     0x1  imu.o [1]
+  .bss                zero     0x2000460d     0x1  imu.o [1]
+  .bss                zero     0x2000460e     0x1  imu.o [1]
+  .bss                zero     0x2000460f     0x1  imu.o [1]
+  .bss                zero     0x20004610     0x1  imu.o [1]
+  .bss                zero     0x20004611     0x1  imu.o [1]
+  .bss                zero     0x20004612     0x1  imu.o [1]
+  .bss                zero     0x20004613     0x1  led.o [1]
+  .bss                zero     0x20004614     0x1  ledseq.o [1]
+  .bss                zero     0x20004615     0x1  motors.o [1]
+  .bss                zero     0x20004616     0x1  mpu6050.o [1]
+  .bss                zero     0x20004617     0x1  mpu6050.o [1]
+  .bss                zero     0x20004618     0x1  ms5611.o [1]
+  .bss                zero     0x20004619     0x1  ms5611.o [1]
+  .bss                zero     0x2000461a     0x1  ms5611.o [1]
+  .bss                zero     0x2000461b     0x1  nrf24l01.o [1]
+  .bss                zero     0x2000461c     0x1  param.o [1]
+  .bss                zero     0x2000461d     0x1  pm.o [1]
+  .bss                zero     0x2000461e     0x1  pm.o [1]
+  .bss                zero     0x2000461f     0x1  radiolink.o [1]
+  .bss                zero     0x20004620     0x1  sensfusion6.o [1]
+  .bss                zero     0x20004621     0x1  stabilizer.o [1]
+  .bss                zero     0x20004622     0x1  stabilizer.o [1]
+  .bss                zero     0x20004623     0x1  stabilizer.o [1]
+  .bss                zero     0x20004624     0x1  stabilizer.o [1]
+  .bss                zero     0x20004625     0x1  stabilizer.o [1]
+  .bss                zero     0x20004626     0x1  stabilizer.o [1]
+  .bss                zero     0x20004627     0x1  system.o [1]
+  .bss                zero     0x20004628     0x1  system.o [1]
+  .bss                zero     0x20004629     0x1  uart.o [1]
+  .bss                zero     0x2000462a     0x1  uart.o [1]
+  .bss                zero     0x2000462b     0x1  uart.o [1]
+  .bss                zero     0x2000462c     0x1  uart.o [1]
+                             - 0x2000462d  0x4425
+
+"P2", part 3 of 3:                          0x800
+  CSTACK                       0x20004630   0x800  <Block>
+    CSTACK            uninit   0x20004630   0x800  <Block tail>
+                             - 0x20004e30   0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4425:
+          0x20000208  0x4425
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x208:
+          0x0800b2c4   0x208
+    1 destination range, total size 0x208:
+          0x20000000   0x208
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry                 208        208
+  Uncalled function             408      3 136
+
+
+Program entry
+  "__iar_program_start": 0x0800b189
+
+  Maximum call chain                            *?* 208 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "__iar_program_start"                             0
+    "__cmain"                                         0
+    "main"                                            8
+    "vTaskStartScheduler"                            24
+    "xTimerCreateTimerTask"                          24
+    "xTaskGenericCreate"                             56
+    "prvAllocateTCBAndStack" in tasks.o [1]          24
+    "pvPortMalloc"                                   24
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "adcTask": 0x08008c75
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "adcTask"                                        16
+    "xQueueGenericReceive"                           40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "commanderCrtpCB" in commander.o [1]: 0x08005f99
+
+  Maximum call chain                                16 bytes
+
+    "commanderCrtpCB" in commander.o [1]             8
+    "commanderWatchdogReset" in commander.o [1]      8
+    "xTaskGetTickCount"                              0
+
+Uncalled function
+  "crtpRxTask" in crtp.o [1]: 0x08008f05
+
+  Maximum call chain                            *?* 136 bytes
+    (** call graph contains indirect calls (example: "crtpRxTask" in crtp.o [1])
+                            functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "crtpRxTask" in crtp.o [1]                       48
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "crtpTxTask" in crtp.o [1]: 0x08008edd
+
+  Maximum call chain                            *?* 128 bytes
+    (** call graph contains indirect calls (example: "crtpTxTask" in crtp.o [1])
+                            functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "crtpTxTask" in crtp.o [1]                       40
+    "xQueueGenericReceive"                           40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "nopFunc1" in crtp.o [1]: 0x08009019
+
+  Maximum call chain                                 0 bytes
+
+    "nopFunc1" in crtp.o [1]                         0
+
+Uncalled function
+  "nopFunc2" in crtp.o [1]: 0x0800901f
+
+  Maximum call chain                                 0 bytes
+
+    "nopFunc2" in crtp.o [1]                         0
+
+Uncalled function
+  "crtpserviceHandler": 0x08009d5d
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "crtpserviceHandler"                              8
+    "crtpSendPacket"                                  8
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "BusFault_Handler": 0x0800ae2f
+
+  Maximum call chain                                 0 bytes
+
+    "BusFault_Handler"                               0
+
+Uncalled function
+  "DMA1_Channel1_IRQHandler": 0x0800ae35
+
+  Maximum call chain                            *?* 96 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "DMA1_Channel1_IRQHandler"                       8
+    "adcInterruptHandler"                           16
+    "xQueueGenericSendFromISR"                      32
+    "prvCopyDataToQueue" in queue.o [1]             24
+    "memcpy"                                         8
+    "__iar_unaligned___aeabi_memcpy"                 0
+    "__iar_unaligned___aeabi_memcpy4"                8
+
+Uncalled function
+  "DMA1_Channel2_IRQHandler": 0x0800ae3d
+
+  Maximum call chain                                 0 bytes
+
+    "DMA1_Channel2_IRQHandler"                       0
+
+Uncalled function
+  "DMA1_Channel4_IRQHandler": 0x0800ae3f
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "DMA1_Channel4_IRQHandler"                        8
+    "i2cDmaInterruptHandlerI2c2"                      8
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "DMA1_Channel5_IRQHandler": 0x0800ae47
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "DMA1_Channel5_IRQHandler"                        8
+    "i2cDmaInterruptHandlerI2c2"                      8
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "DMA1_Channel6_IRQHandler": 0x0800ae4f
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "DMA1_Channel6_IRQHandler"                        8
+    "i2cDmaInterruptHandlerI2c1"                      8
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "DMA1_Channel7_IRQHandler": 0x0800ae57
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "DMA1_Channel7_IRQHandler"                        8
+    "i2cDmaInterruptHandlerI2c1"                      8
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "DebugMon_Handler": 0x0800ae33
+
+  Maximum call chain                                 0 bytes
+
+    "DebugMon_Handler"                               0
+
+Uncalled function
+  "EXTI9_5_IRQHandler": 0x0800ae5f
+
+  Maximum call chain                            *?* 24 bytes
+    (** call graph contains indirect calls (example: "nrfIsr") **)
+
+    "EXTI9_5_IRQHandler"                             8
+    "extiInterruptHandler"                           8
+    "nrfIsr"                                         8
+
+Uncalled function
+  "HardFault_Handler": 0x0800ade5
+
+  Maximum call chain                                 0 bytes
+
+    "HardFault_Handler"                              0
+
+Uncalled function
+  "I2C1_ER_IRQHandler": 0x0800ae8d
+
+  Maximum call chain                                12 bytes
+
+    "I2C1_ER_IRQHandler"                             8
+    "i2cErrorInterruptHandlerI2c1"                   4
+
+Uncalled function
+  "I2C1_EV_IRQHandler": 0x0800ae85
+
+  Maximum call chain                                16 bytes
+
+    "I2C1_EV_IRQHandler"                             8
+    "i2cInterruptHandlerI2c1"                        8
+
+Uncalled function
+  "I2C2_ER_IRQHandler": 0x0800ae97
+
+  Maximum call chain                                 8 bytes
+
+    "I2C2_ER_IRQHandler"                             8
+    "I2C_ClearFlag"                                  0
+
+Uncalled function
+  "I2C2_EV_IRQHandler": 0x0800ae95
+
+  Maximum call chain                                 0 bytes
+
+    "I2C2_EV_IRQHandler"                             0
+
+Uncalled function
+  "MemManage_Handler": 0x0800ae2d
+
+  Maximum call chain                                 0 bytes
+
+    "MemManage_Handler"                              0
+
+Uncalled function
+  "NMI_Handler": 0x0800ade1
+
+  Maximum call chain                                 0 bytes
+
+    "NMI_Handler"                                    0
+
+Uncalled function
+  "TIM1_UP_IRQHandler": 0x0800ae6f
+
+  Maximum call chain                                 8 bytes
+
+    "TIM1_UP_IRQHandler"                             8
+    "TIM_ClearITPendingBit"                          0
+
+Uncalled function
+  "USART3_IRQHandler": 0x0800ae67
+
+  Maximum call chain                            *?* 88 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "USART3_IRQHandler"                              8
+    "uartIsr"                                        8
+    "xQueueGenericSendFromISR"                      32
+    "prvCopyDataToQueue" in queue.o [1]             24
+    "memcpy"                                         8
+    "__iar_unaligned___aeabi_memcpy"                 0
+    "__iar_unaligned___aeabi_memcpy4"                8
+
+Uncalled function
+  "UsageFault_Handler": 0x0800ae31
+
+  Maximum call chain                                 0 bytes
+
+    "UsageFault_Handler"                             0
+
+Uncalled function
+  "printHardFault": 0x0800adf9
+
+  Maximum call chain                                20 bytes
+
+    "printHardFault"                                20
+
+Uncalled function
+  "paramTask" in param.o [1]: 0x08009e89
+
+  Maximum call chain                            *?* 128 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "paramTask" in param.o [1]                        8
+    "paramTOCProcess"                                24
+    "crtpSendPacket"                                  8
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "pmTask": 0x08006a5d
+
+  Maximum call chain                            *?* 200 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "pmTask"                                         24
+    "ledseqRun"                                      16
+    "runLedseq" in ledseq.o [1]                      32
+    "xTimerGenericCommand"                           40
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "prvTaskExitError" in port.o [1]: 0x08000bd9
+
+  Maximum call chain                                  *?* 8 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "prvTaskExitError" in port.o [1]                      8
+    "ulPortSetInterruptMask"                    - no info -
+
+Uncalled function
+  "SysTick_Handler": 0x08000c55
+
+  Maximum call chain                            *?* 32 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "SysTick_Handler"                                8
+    "xTaskIncrementTick"                            24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                     0
+
+Uncalled function
+  "interruptCallback" in radiolink.o [1]: 0x080090e1
+
+  Maximum call chain                            *?* 56 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "interruptCallback" in radiolink.o [1]           8
+    "xQueueGiveFromISR"                             24
+    "xTaskRemoveFromEventList"                      24
+    "uxListRemove"                                   0
+
+Uncalled function
+  "isConnected" in radiolink.o [1]: 0x0800916d
+
+  Maximum call chain                                 8 bytes
+
+    "isConnected" in radiolink.o [1]                 8
+    "xTaskGetTickCount"                              0
+
+Uncalled function
+  "radiolinkTask" in radiolink.o [1]: 0x08009187
+
+  Maximum call chain                            *?* 192 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "radiolinkTask" in radiolink.o [1]               16
+    "ledseqRun"                                      16
+    "runLedseq" in ledseq.o [1]                      32
+    "xTimerGenericCommand"                           40
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "receivePacket" in radiolink.o [1]: 0x08009135
+
+  Maximum call chain                            *?* 96 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "receivePacket" in radiolink.o [1]               8
+    "xQueueGenericReceive"                          40
+    "xTaskResumeAll"                                24
+    "xTaskIncrementTick"                            24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                     0
+
+Uncalled function
+  "reset" in radiolink.o [1]: 0x08009159
+
+  Maximum call chain                            *?* 48 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "reset" in radiolink.o [1]                       8
+    "xQueueGenericReset"                            16
+    "xTaskRemoveFromEventList"                      24
+    "uxListRemove"                                   0
+
+Uncalled function
+  "sendPacket" in radiolink.o [1]: 0x08009111
+
+  Maximum call chain                            *?* 96 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "sendPacket" in radiolink.o [1]                  8
+    "xQueueGenericSend"                             40
+    "xTaskResumeAll"                                24
+    "xTaskIncrementTick"                            24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                     0
+
+Uncalled function
+  "setEnable" in radiolink.o [1]: 0x080090fd
+
+  Maximum call chain                                16 bytes
+
+    "setEnable" in radiolink.o [1]                   8
+    "nrfSetEnable"                                   8
+    "GPIO_ResetBits"                                 0
+
+Uncalled function
+  "stabilizerTask" in stabilizer.o [1]: 0x08004239
+
+  Maximum call chain                            *?* 328 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "stabilizerTask" in stabilizer.o [1]             48
+    "stabilizerAltHoldUpdate" in stabilizer.o [1]
+                                                     32
+    "ms5611GetData"                                  32
+    "ms5611GetConversion"                            24
+    "i2cdevWriteByte"                                24
+    "i2cdevWrite"                                    40
+    "I2C_Master_BufferWrite"                         40
+    "xQueueGenericReceive"                           40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "systemTask" in system.o [1]: 0x08005e75
+
+  Maximum call chain                            *?* 408 bytes
+    (** call graph contains indirect calls (example: "crtpSetLink")
+                            functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "systemTask" in system.o [1]                     16
+    "stabilizerTest"                                  8
+    "imu6Test"                                        8
+    "mpu6050SelfTest"                               112
+    "mpu6050GetFullScaleGyroDPL"                     16
+    "mpu6050GetFullScaleGyroRangeId"                 16
+    "i2cdevReadBits"                                 40
+    "i2cdevReadByte"                                 24
+    "i2cdevRead"                                     40
+    "I2C_Master_BufferRead"                          40
+    "xQueueGenericReceive"                           40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "prvIdleTask" in tasks.o [1]: 0x080007bd
+
+  Maximum call chain                            *?* 104 bytes
+    (** call graph contains functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "prvIdleTask" in tasks.o [1]                      8
+    "prvCheckTasksWaitingTermination" in tasks.o [1]
+                                                     16
+    "prvDeleteTCB" in tasks.o [1]                     8
+    "vPortFree"                                      24
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+Uncalled function
+  "vTaskSwitchContext": 0x08000587
+
+  Maximum call chain                                 8 bytes
+
+    "vTaskSwitchContext"                             8
+    "debugSendTraceInfo"                             0
+
+Uncalled function
+  "prvTimerTask" in timers.o [1]: 0x08000ea1
+
+  Maximum call chain                            *?* 232 bytes
+    (** call graph contains indirect calls (example: "prvProcessExpiredTimer" in timers.o [1])
+                            functions with no stack usage info (example: "ulPortSetInterruptMask") **)
+
+    "prvTimerTask" in timers.o [1]                   16
+    "prvProcessReceivedCommands" in timers.o [1]
+                                                     40
+    "prvSampleTimeNow" in timers.o [1]               16
+    "prvSwitchTimerLists" in timers.o [1]            32
+    "xTimerGenericCommand"                           40
+    "xQueueGenericSend"                              40
+    "xTaskResumeAll"                                 24
+    "xTaskIncrementTick"                             24
+    "prvResetNextTaskUnblockTime" in tasks.o [1]
+                                                      0
+
+The following functions appear not to be called and have no stack
+usage information:
+
+  "ADC1_2_IRQHandler": 0x0800b27d
+  "CAN1_RX1_IRQHandler": 0x0800b289
+  "CAN1_SCE_IRQHandler": 0x0800b28d
+  "DMA1_Channel3_IRQHandler": 0x0800b279
+  "EXTI0_IRQHandler": 0x0800b265
+  "EXTI15_10_IRQHandler": 0x0800b2b9
+  "EXTI1_IRQHandler": 0x0800b269
+  "EXTI2_IRQHandler": 0x0800b26d
+  "EXTI3_IRQHandler": 0x0800b271
+  "EXTI4_IRQHandler": 0x0800b275
+  "FLASH_IRQHandler": 0x0800b25d
+  "PVD_IRQHandler": 0x0800b251
+  "PendSV_Handler": 0x0800b249
+  "RCC_IRQHandler": 0x0800b261
+  "RTCAlarm_IRQHandler": 0x0800b2bd
+  "RTC_IRQHandler": 0x0800b259
+  "SPI1_IRQHandler": 0x0800b2a9
+  "SPI2_IRQHandler": 0x0800b2ad
+  "SVC_Handler": 0x0800b245
+  "TAMPER_IRQHandler": 0x0800b255
+  "TIM1_BRK_IRQHandler": 0x0800b291
+  "TIM1_CC_IRQHandler": 0x0800b299
+  "TIM1_TRG_COM_IRQHandler": 0x0800b295
+  "TIM2_IRQHandler": 0x0800b29d
+  "TIM3_IRQHandler": 0x0800b2a1
+  "TIM4_IRQHandler": 0x0800b2a5
+  "USART1_IRQHandler": 0x0800b2b1
+  "USART2_IRQHandler": 0x0800b2b5
+  "USBWakeUp_IRQHandler": 0x0800b2c1
+  "USB_HP_CAN1_TX_IRQHandler": 0x0800b281
+  "USB_LP_CAN1_RX0_IRQHandler": 0x0800b285
+  "WWDG_IRQHandler": 0x0800b24d
+  "vPortSVCHandler": 0x080011af
+  "xPortPendSVHandler": 0x0800115d
+
+The following functions appear to be called, but have no stack
+usage information:
+
+  "ulPortSetInterruptMask": 0x0800119b
+  "vPortClearInterruptMask": 0x080011a9
+  "vPortStartFirstTask": 0x080011cf
+
+The following functions perform unknown indirect calls:
+
+  "crtpRxTask" in crtp.o [1]: 0x08008f05
+  "crtpSetLink": 0x08008fab
+  "crtpTxTask" in crtp.o [1]: 0x08008edd
+  "nrfIsr": 0x0800a453
+  "prvProcessExpiredTimer" in timers.o [1]: 0x08000e59
+  "prvProcessReceivedCommands" in timers.o [1]: 0x08000faf
+  "prvSwitchTimerLists" in timers.o [1]: 0x08001063
+  "workerLoop": 0x08008901
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj: [1]
+    adc.o                       872                69
+    cfassert.o                   26
+    comm.o                      104                 1
+    commander.o                 480                44
+    configblock.o               188                 5
+    console.o                    84                37
+    controller.o                796               349
+    crc.o                       144
+    crtp.o                      556      148      165
+    crtpservice.o                86                 1
+    exti.o                       88                 1
+    filter.o                     58
+    freeRTOSdebug.o               4
+    heap_2.o                    332        6   14 024
+    hmc5883l.o                  704       48       15
+    i2cdev.o                  1 516                36
+    i2croutines.o             2 196                59
+    imu.o                     1 976             1 639
+    led.o                       188       24       25
+    ledseq.o                    768      344      425
+    list.o                      158
+    main.o                      188
+    misc.o                      136
+    motors.o                    376                 1
+    mpu6050.o                 1 664       48       22
+    ms5611.o                  1 076       24       27
+    nrf24l01.o                1 080       80        5
+    nvic.o                      224
+    param.o                   1 096        8       73
+    pid.o                       224
+    pm.o                      1 096       60       30
+    port.o                      224        4        4
+    portasm.o                   148
+    queue.o                   1 556                80
+    radiolink.o                 680       40       77
+    sensfusion6.o             2 024       12       37
+    stabilizer.o              2 038       72      284
+    startup_stm32f10x_md.o      364
+    stm32f10x_adc.o             620
+    stm32f10x_dbgmcu.o           36
+    stm32f10x_dma.o             516
+    stm32f10x_exti.o            204
+    stm32f10x_flash.o            60
+    stm32f10x_gpio.o            576
+    stm32f10x_i2c.o             352
+    stm32f10x_rcc.o             924       20       20
+    stm32f10x_spi.o             124
+    stm32f10x_tim.o             748
+    stm32f10x_usart.o           248
+    system.o                    380        8        6
+    tasks.o                   2 768       12      256
+    timers.o                  1 012       16       56
+    uart.o                      228                80
+    usec_time.o                 132                 4
+    worker.o                    152                 4
+    -------------------------------------------------
+    Total:                   34 598      974   17 961
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    errno.o                      12        4        4
+    exit.o                        4
+    low_level_init.o              4
+    memcpy.o                     12
+    xtls.o                        2
+    -------------------------------------------------
+    Total:                       34        4        4
+
+m7M_tl.a: [4]
+    DblAdd.o                    232
+    DblCmpEq.o                   32
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    384
+    DblToFlt.o                  144
+    DblToI32.o                   88
+    FltAdd.o                    132
+    FltCmpEq.o                   28
+    FltCmpGe.o                   36
+    FltCmpLe.o                   36
+    FltDiv.o                    252
+    FltMul.o                    216
+    FltSub.o                    230
+    FltToDbl.o                   78
+    FltToS32.o                   68
+    I32ToDbl.o                   48
+    I32ToFlt.o                   50
+    I64ToDbl.o                   88
+    I64ToFlt.o                   98
+    asin.o                      246
+    atan2.o                     204
+    cos.o                         6
+    fmod.o                      424
+    pow.o                     2 144
+    sin.o                         6
+    sqrt.o                      240
+    xatan.o                     480
+    xdint.o                     126
+    xdnorm.o                     66
+    xdscale.o                   268
+    xdtest.o                     50
+    xexp.o                      676
+    xlog.o                      172
+    xquad.o                     352
+    xsin.o                    1 066
+    -------------------------------------------------
+    Total:                    9 858
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                  6
+    ABImemcpy_unaligned.o       118
+    ABImemset48.o                50
+    I64DivMod.o                 306
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    iarEdom.o                    12
+    strlen.o                     54
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      716
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         42        2
+    Linker created                        36    2 048
+-----------------------------------------------------
+    Grand Total:             45 268    1 016   20 013
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x0800b0ed          Code  Gb  cmain.o [5]
+ADCPrescTable           0x200001f8     0x4  Data  Lc  stm32f10x_rcc.o [1]
+ADC_Cmd                 0x08009b77    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DMACmd              0x08009b91    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DeInit              0x08009ac9    0x5e  Code  Gb  stm32f10x_adc.o [1]
+ADC_ExternalTrigConvCmd
+                        0x08009cdd    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x08009bd7    0x18  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetResetCalibrationStatus
+                        0x08009bb5    0x18  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x08009b27    0x50  Code  Gb  stm32f10x_adc.o [1]
+ADC_RegularChannelConfig
+                        0x08009bef    0xee  Code  Gb  stm32f10x_adc.o [1]
+ADC_ResetCalibration    0x08009bab     0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x08009bcd     0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_TempSensorVrefintCmd
+                        0x08009cf7    0x22  Code  Gb  stm32f10x_adc.o [1]
+APBAHBPrescTable        0x20000174    0x10  Data  Lc  stm32f10x_rcc.o [1]
+Address                 0x20004609     0x1  Data  Gb  i2croutines.o [1]
+Buffer_Rx1              0x20004494     0x4  Data  Gb  i2cdev.o [1]
+Buffer_Tx1              0x20004498     0x4  Data  Gb  i2cdev.o [1]
+BusFault_Handler        0x0800ae2f     0x2  Code  Gb  nvic.o [1]
+CSTACK$$Base            0x20004630           --   Gb  - Linker created -
+CSTACK$$Limit           0x20004e30           --   Gb  - Linker created -
+DBGMCU_Config           0x080071a1    0x1e  Code  Gb  stm32f10x_dbgmcu.o [1]
+DMA1_Channel1_IRQHandler
+                        0x0800ae35     0x8  Code  Gb  nvic.o [1]
+DMA1_Channel2_IRQHandler
+                        0x0800ae3d     0x2  Code  Gb  nvic.o [1]
+DMA1_Channel4_IRQHandler
+                        0x0800ae3f     0x8  Code  Gb  nvic.o [1]
+DMA1_Channel5_IRQHandler
+                        0x0800ae47     0x8  Code  Gb  nvic.o [1]
+DMA1_Channel6_IRQHandler
+                        0x0800ae4f     0x8  Code  Gb  nvic.o [1]
+DMA1_Channel7_IRQHandler
+                        0x0800ae57     0x8  Code  Gb  nvic.o [1]
+DMA_ClearFlag           0x08002633    0x10  Code  Gb  stm32f10x_dma.o [1]
+DMA_ClearITPendingBit   0x0800266d    0x10  Code  Gb  stm32f10x_dma.o [1]
+DMA_Cmd                 0x08002601    0x1c  Code  Gb  stm32f10x_dma.o [1]
+DMA_DeInit              0x080024b9   0x10a  Code  Gb  stm32f10x_dma.o [1]
+DMA_GetITStatus         0x08002643    0x2a  Code  Gb  stm32f10x_dma.o [1]
+DMA_ITConfig            0x0800261d    0x16  Code  Gb  stm32f10x_dma.o [1]
+DMA_Init                0x080025c3    0x3e  Code  Gb  stm32f10x_dma.o [1]
+DebugMon_Handler        0x0800ae33     0x2  Code  Gb  nvic.o [1]
+EXTI9_5_IRQHandler      0x0800ae5f     0x8  Code  Gb  nvic.o [1]
+EXTI_ClearITPendingBit  0x0800aa35     0x6  Code  Gb  stm32f10x_exti.o [1]
+EXTI_GetITStatus        0x0800aa0d    0x28  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x0800a985    0x88  Code  Gb  stm32f10x_exti.o [1]
+FLASH_PrefetchBufferCmd
+                        0x0800b00d    0x20  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x0800aff5    0x18  Code  Gb  stm32f10x_flash.o [1]
+GPIO_EXTILineConfig     0x08002c3d    0x50  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x08002a59   0x136  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08002bb5    0x88  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x08002b8f    0x1a  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08002baf     0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x08002ba9     0x6  Code  Gb  stm32f10x_gpio.o [1]
+HardFault_Handler       0x0800ade5    0x14  Code  Gb  nvic.o [1]
+I2C1_ER_IRQHandler      0x0800ae8d     0x8  Code  Gb  nvic.o [1]
+I2C1_EV_IRQHandler      0x0800ae85     0x8  Code  Gb  nvic.o [1]
+I2C2_ER_IRQHandler      0x0800ae97     0xc  Code  Gb  nvic.o [1]
+I2C2_EV_IRQHandler      0x0800ae95     0x2  Code  Gb  nvic.o [1]
+I2CDMA_InitStructure    0x20004254    0x2c  Data  Gb  i2croutines.o [1]
+I2CDirection            0x2000449c     0x4  Data  Gb  i2croutines.o [1]
+I2C_ClearFlag           0x08002e73     0xe  Code  Gb  stm32f10x_i2c.o [1]
+I2C_DMAConfig           0x08001f71    0xc0  Code  Gb  i2croutines.o [1]
+I2C_DeInit              0x08002d21    0x36  Code  Gb  stm32f10x_i2c.o [1]
+I2C_Init                0x08002d57    0xf2  Code  Gb  stm32f10x_i2c.o [1]
+I2C_LowLevel_Init       0x08001d31   0x240  Code  Gb  i2croutines.o [1]
+I2C_Master_BufferRead   0x080019f9   0x1b8  Code  Gb  i2croutines.o [1]
+I2C_Master_BufferWrite  0x08001bb1   0x180  Code  Gb  i2croutines.o [1]
+I2C_SoftwareResetCmd    0x08002e59    0x1a  Code  Gb  stm32f10x_i2c.o [1]
+I2Cx                    0x20004488     0x4  Data  Lc  hmc5883l.o [1]
+I2Cx                    0x200044c0     0x4  Data  Lc  mpu6050.o [1]
+I2Cx                    0x200044c4     0x4  Data  Lc  ms5611.o [1]
+MemManage_Handler       0x0800ae2d     0x2  Code  Gb  nvic.o [1]
+NMI_Handler             0x0800ade1     0x2  Code  Gb  nvic.o [1]
+NVIC_Init               0x08002ca3    0x68  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08002c99     0xa  Code  Gb  misc.o [1]
+NumbOfBytes1            0x200044a0     0x4  Data  Gb  i2croutines.o [1]
+NumbOfBytes2            0x200044a4     0x4  Data  Gb  i2croutines.o [1]
+RCC_ADCCLKConfig        0x08002835    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_AHBPeriphClockCmd   0x08002925    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08002961    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x0800299d    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08002943    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x0800297f    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_DeInit              0x080026bd    0x60  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x08002849    0xdc  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x080029c1    0x50  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource     0x080027ed     0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x080027f7    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x0800271d    0x56  Code  Gb  stm32f10x_rcc.o [1]
+RCC_MCOConfig           0x080029bb     0x6  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK1Config         0x0800280b    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x0800281f    0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd              0x080027cf     0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig           0x080027b3    0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x080027d9    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x08002773    0x40  Code  Gb  stm32f10x_rcc.o [1]
+Region$$Table$$Base     0x0800b0c8           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800b0ec           --   Gb  - Linker created -
+Rx_Idx1                 0x2000460b     0x1  Data  Gb  i2croutines.o [1]
+SPI_Cmd                 0x0800a8f1    0x1c  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_GetFlagStatus   0x0800a915    0x18  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_ReceiveData     0x0800a911     0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_SendData        0x0800a90d     0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_Init                0x0800a8b1    0x40  Code  Gb  stm32f10x_spi.o [1]
+SysTick_Handler         0x08000c55    0x20  Code  Gb  port.o [1]
+TIM1_UP_IRQHandler      0x0800ae6f    0x16  Code  Gb  nvic.o [1]
+TIM_ClearITPendingBit   0x0800716d     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x080070d5    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_CtrlPWMOutputs      0x080070f1    0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x08007113    0x16  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2Init             0x08006f49    0x90  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2PreloadConfig    0x08007129    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3Init             0x08006fd9    0x8e  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3PreloadConfig    0x0800713d    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4Init             0x08007067    0x6e  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4PreloadConfig    0x0800714f    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCompare3         0x08007163     0x4  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCompare4         0x08007167     0x6  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08006eb5    0x94  Code  Gb  stm32f10x_tim.o [1]
+Tx_Idx1                 0x2000460a     0x1  Data  Gb  i2croutines.o [1]
+USART3_IRQHandler       0x0800ae67     0x8  Code  Gb  nvic.o [1]
+USART_ClearITPendingBit
+                        0x0800accd    0x24  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x0800ac5f    0x6e  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x0800abf9    0x56  Code  Gb  stm32f10x_usart.o [1]
+USART_ReceiveData       0x0800ac57     0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x0800ac4f     0x8  Code  Gb  stm32f10x_usart.o [1]
+UsageFault_Handler      0x0800ae31     0x2  Code  Gb  nvic.o [1]
+__aeabi_cdcmpeq         0x080037e9          Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x08003845          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x08003815          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x080086f5          Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x08006e1d          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x08006e91          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x080081b5          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x08002461          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0800248d          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x08003875          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x08003add          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x080022bd          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0800395d          Code  Gb  DblSub.o [4]
+__aeabi_errno_addr      0x08003809     0x6  Code  Gb  errno.o [3]
+__aeabi_f2d             0x08006e41          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x08006dd9          Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x08006215          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x08006cdd          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0800613d          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x080066cd          Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x0800228d          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x0800854d          Code  Gb  I32ToFlt.o [4]
+__aeabi_l2d             0x08009025          Code  Gb  I64ToDbl.o [4]
+__aeabi_l2f             0x0800907d          Code  Gb  I64ToFlt.o [4]
+__aeabi_ldiv0           0x080097e9          Code  Gb  I64DivZer.o [5]
+__aeabi_ldivmod         0x08008589          Code  Gb  I64DivMod.o [5]
+__aeabi_memclr4         0x08008581          Code  Gb  ABImemclr4.o [5]
+__aeabi_ui2d            0x080022a1          Code  Gb  I32ToDbl.o [4]
+__aeabi_ui2f            0x08008561          Code  Gb  I32ToFlt.o [4]
+__aeabi_ul2f            0x08009099          Code  Gb  I64ToFlt.o [4]
+__aeabi_uldivmod        0x080085cd          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0800b0ed          Code  Gb  cmain.o [5]
+__exit                  0x0800b11d    0x14  Code  Gb  exit.o [6]
+__iar_Atan              0x080097f9   0x148  Code  Gb  xatan.o [4]
+__iar_Dint              0x0800376b    0x7e  Code  Gb  xdint.o [4]
+__iar_Dnorm             0x08003729    0x42  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x080040a9   0x10c  Code  Gb  xdscale.o [4]
+__iar_Dtest             0x08004077    0x32  Code  Gb  xdtest.o [4]
+__iar_Errno             0x20000200     0x4  Data  Gb  errno.o [3]
+__iar_Exp               0x08003dd1   0x29e  Code  Gb  xexp.o [4]
+__iar_Logpoly           0x08003d25    0x70  Code  Gb  xlog.o [4]
+__iar_Memset4_word      0x080097b5          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x080097b5          Code  Gb  ABImemset48.o [5]
+__iar_Quad              0x0800a67d   0x160  Code  Gb  xquad.o [4]
+__iar_Sin               0x08009389   0x424  Code  Gb  xsin.o [4]
+__iar_copy_init3        0x08000d3b    0x2e  Code  Gb  copy_init3.o [5]
+__iar_d2uiz             0x08002499          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x08003889          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x0800b0a1    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x08004075     0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x08003971          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x08003983          Code  Gb  DblSub.o [4]
+__iar_edom              0x0800a7dd          Code  Gb  iarEdom.o [5]
+__iar_fadd              0x08006225          Code  Gb  FltAdd.o [4]
+__iar_fmod              0x0800aa51          Code  Gb  fmod.o [4]
+__iar_fmodl             0x0800aa51          Code  Gb  fmod.o [4]
+__iar_fsub              0x080066dd          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x080066ed          Code  Gb  FltSub.o [4]
+__iar_program_start     0x0800b189          Code  Gb  cstartup_M.o [5]
+__iar_sqrt              0x080099d9          Code  Gb  sqrt.o [4]
+__iar_ui2d              0x080022a5          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x08008565          Code  Gb  I32ToFlt.o [4]
+__iar_ul2d              0x08009041          Code  Gb  I64ToDbl.o [4]
+__iar_ul2f              0x080090a5          Code  Gb  I64ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08001961          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08001981          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08001981          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x080019d7    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800b107     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f10x_md.o [1]
+_call_main              0x0800b0f9          Code  Gb  cmain.o [5]
+_exit                   0x0800b111          Code  Gb  cexit.o [5]
+_main                   0x0800b103          Code  Gb  cmain.o [5]
+_param_start            0x200043cc     0xc  Data  Gb  param.o [1]
+_param_stop             0x200043d8     0xc  Data  Gb  param.o [1]
+a                       0x08009998    0x40  Data  Lc  xatan.o [4]
+acc                     0x200043f0     0xc  Data  Lc  stabilizer.o [1]
+accMAG                  0x2000455c     0x4  Data  Lc  stabilizer.o [1]
+accWZ                   0x20004558     0x4  Data  Lc  stabilizer.o [1]
+accelBias               0x20003bc4   0x30c  Data  Lc  imu.o [1]
+accelLPF                0x20004430     0x8  Data  Lc  imu.o [1]
+accelLPFAligned         0x20004438     0x8  Data  Lc  imu.o [1]
+accelMpu                0x20004428     0x8  Data  Lc  imu.o [1]
+accelStoredFilterValues
+                        0x200043b4     0xc  Data  Lc  imu.o [1]
+activeSeq               0x20004448     0x8  Data  Lc  ledseq.o [1]
+actuatorPitch           0x200045f6     0x2  Data  Gb  stabilizer.o [1]
+actuatorRoll            0x200045f4     0x2  Data  Gb  stabilizer.o [1]
+actuatorThrust          0x200045f2     0x2  Data  Gb  stabilizer.o [1]
+actuatorYaw             0x200045f8     0x2  Data  Gb  stabilizer.o [1]
+adcConvertToVoltageFloat
+                        0x08008bd5    0x32  Code  Gb  adc.o [1]
+adcDecimate             0x080089c5    0x5a  Code  Lc  adc.o [1]
+adcDmaInit              0x0800896d    0x58  Code  Lc  adc.o [1]
+adcDmaStart             0x08008c07    0x20  Code  Gb  adc.o [1]
+adcInit                 0x08008a1f   0x1b0  Code  Gb  adc.o [1]
+adcInterruptHandler     0x08008c27    0x4a  Code  Gb  adc.o [1]
+adcQueue                0x20004458     0x4  Data  Gb  adc.o [1]
+adcTask                 0x08008c75    0x38  Code  Gb  adc.o [1]
+adcTest                 0x08008bcf     0x6  Code  Gb  adc.o [1]
+adcValues               0x20003fcc    0x40  Data  Gb  adc.o [1]
+altHold                 0x20004621     0x1  Data  Gb  stabilizer.o [1]
+altHoldBaseThrust       0x20000204     0x2  Data  Lc  stabilizer.o [1]
+altHoldChange           0x20004578     0x4  Data  Lc  stabilizer.o [1]
+altHoldChange_SENS      0x200001d0     0x4  Data  Lc  stabilizer.o [1]
+altHoldErr              0x20004570     0x4  Data  Lc  stabilizer.o [1]
+altHoldErrMax           0x200001cc     0x4  Data  Lc  stabilizer.o [1]
+altHoldKd               0x20004574     0x4  Data  Lc  stabilizer.o [1]
+altHoldKi               0x200001c4     0x4  Data  Lc  stabilizer.o [1]
+altHoldKp               0x200001c0     0x4  Data  Lc  stabilizer.o [1]
+altHoldMaxThrust        0x20000206     0x2  Data  Lc  stabilizer.o [1]
+altHoldMinThrust        0x200045f0     0x2  Data  Lc  stabilizer.o [1]
+altHoldMode             0x200045fe     0x1  Data  Lc  commander.o [1]
+altHoldModeOld          0x200045ff     0x1  Data  Lc  commander.o [1]
+altHoldPID              0x2000421c    0x38  Data  Lc  stabilizer.o [1]
+altHoldPIDVal           0x2000456c     0x4  Data  Lc  stabilizer.o [1]
+altHoldTarget           0x200001c8     0x4  Data  Lc  stabilizer.o [1]
+asin                    0x080087dd    0xf0  Code  Gb  asin.o [4]
+asl                     0x2000454c     0x4  Data  Lc  stabilizer.o [1]
+aslAlpha                0x200001f0     0x4  Data  Lc  stabilizer.o [1]
+aslAlphaLong            0x200001f4     0x4  Data  Lc  stabilizer.o [1]
+aslLong                 0x20004554     0x4  Data  Lc  stabilizer.o [1]
+aslRaw                  0x20004550     0x4  Data  Lc  stabilizer.o [1]
+assertFail              0x0800a229    0x1a  Code  Gb  cfassert.o [1]
+atan2                   0x08008711    0xcc  Code  Gb  atan2.o [4]
+bat671723HS25C          0x0800b078    0x28  Data  Lc  pm.o [1]
+batteryCriticalLowTimeStamp
+                        0x200044f0     0x4  Data  Lc  pm.o [1]
+batteryLowTimeStamp     0x200044ec     0x4  Data  Lc  pm.o [1]
+batteryVRawFilt         0x200001a8     0x4  Data  Lc  pm.o [1]
+batteryVRefRawFilt      0x200001ac     0x4  Data  Lc  pm.o [1]
+batteryVoltage          0x200044e4     0x4  Data  Lc  pm.o [1]
+batteryVoltageMax       0x200044e8     0x4  Data  Lc  pm.o [1]
+batteryVoltageMin       0x200001a4     0x4  Data  Lc  pm.o [1]
+buffer                  0x20004418     0x8  Data  Gb  hmc5883l.o [1]
+buffer                  0x200043a4    0x10  Data  Lc  mpu6050.o [1]
+calReg                  0x200043c0     0xc  Data  Lc  ms5611.o [1]
+calculate_cksum         0x080080f1    0x20  Code  Lc  configblock.o [1]
+callbacks               0x2000404c    0x40  Data  Lc  crtp.o [1]
+canFly                  0x20004627     0x1  Data  Lc  system.o [1]
+canStartMutex           0x20004594     0x4  Data  Gb  system.o [1]
+cb_ok                   0x20004600     0x1  Data  Lc  configblock.o [1]
+commInit                0x08008cd5    0x2e  Code  Gb  comm.o [1]
+commTest                0x08008d03    0x34  Code  Gb  comm.o [1]
+commanderCrtpCB         0x08005f99    0x3c  Code  Lc  commander.o [1]
+commanderGetAltHold     0x0800606f    0x62  Code  Gb  commander.o [1]
+commanderGetInactivityTime
+                        0x0800603b     0xe  Code  Gb  commander.o [1]
+commanderGetRPY         0x08006049    0x26  Code  Gb  commander.o [1]
+commanderGetRPYType     0x080060d1     0xe  Code  Gb  commander.o [1]
+commanderGetThrust      0x080060df    0x38  Code  Gb  commander.o [1]
+commanderInit           0x08005f5d    0x2e  Code  Gb  commander.o [1]
+commanderTest           0x08005f8b     0xc  Code  Gb  commander.o [1]
+commanderWatchdog       0x08005fd5    0x5a  Code  Gb  commander.o [1]
+commanderWatchdogReset  0x0800602f     0xc  Code  Lc  commander.o [1]
+configblock             0x20004464     0x4  Data  Lc  configblock.o [1]
+configblockGetCalibPitch
+                        0x08008177    0x14  Code  Gb  configblock.o [1]
+configblockGetCalibRoll
+                        0x0800818b    0x14  Code  Gb  configblock.o [1]
+configblockGetRadioChannel
+                        0x0800814f    0x14  Code  Gb  configblock.o [1]
+configblockGetRadioSpeed
+                        0x08008163    0x14  Code  Gb  configblock.o [1]
+configblockInit         0x08008111    0x3e  Code  Gb  configblock.o [1]
+consoleInit             0x08009d8d    0x42  Code  Gb  console.o [1]
+consoleTest             0x08009dcf     0x6  Code  Gb  console.o [1]
+constrain               0x0800491b    0x34  Code  Lc  stabilizer.o [1]
+controllerCorrectAttitudePID
+                        0x08005c8d    0xa0  Code  Gb  controller.o [1]
+controllerCorrectRatePID
+                        0x08005b8b   0x102  Code  Gb  controller.o [1]
+controllerGetActuatorOutput
+                        0x08005d55    0x28  Code  Gb  controller.o [1]
+controllerInit          0x08005ac5    0xc0  Code  Gb  controller.o [1]
+controllerResetAllPID   0x08005d2d    0x28  Code  Gb  controller.o [1]
+controllerTest          0x08005b85     0x6  Code  Gb  controller.o [1]
+cos                     0x080081ad     0x6  Code  Gb  cos.o [4]
+cosPitch                0x200044ac     0x4  Data  Lc  imu.o [1]
+cosRoll                 0x200044b4     0x4  Data  Lc  imu.o [1]
+crcIndex                0x2000462b     0x1  Data  Lc  uart.o [1]
+crcSlow                 0x0800a813    0x62  Code  Gb  crc.o [1]
+crtpInit                0x08008df9    0x6e  Code  Gb  crtp.o [1]
+crtpInitTaskQueue       0x08008e6d    0x2e  Code  Gb  crtp.o [1]
+crtpReceivePacketBlock  0x08008e9b    0x40  Code  Gb  crtp.o [1]
+crtpRegisterPortCB      0x08008f7d     0xc  Code  Gb  crtp.o [1]
+crtpRxTask              0x08008f05    0x78  Code  Lc  crtp.o [1]
+crtpSendPacket          0x08008f89    0x22  Code  Gb  crtp.o [1]
+crtpSetLink             0x08008fab    0x32  Code  Gb  crtp.o [1]
+crtpTest                0x08008e67     0x6  Code  Gb  crtp.o [1]
+crtpTxTask              0x08008edd    0x26  Code  Lc  crtp.o [1]
+crtpserviceHandler      0x08009d5d    0x2e  Code  Gb  crtpservice.o [1]
+crtpserviceInit         0x08009d35    0x1c  Code  Gb  crtpservice.o [1]
+crtpserviceTest         0x08009d51     0x6  Code  Gb  crtpservice.o [1]
+dataIndex               0x20004629     0x1  Data  Lc  uart.o [1]
+dataRdy                 0x200044f4     0x4  Data  Gb  radiolink.o [1]
+dataSize                0x2000462a     0x1  Data  Lc  uart.o [1]
+deadband                0x0800494f    0x5c  Code  Lc  stabilizer.o [1]
+debugSendTraceInfo      0x080011f3     0x2  Code  Gb  freeRTOSdebug.o [1]
+devAddr                 0x20004606     0x1  Data  Gb  hmc5883l.o [1]
+devAddr                 0x20004616     0x1  Data  Lc  mpu6050.o [1]
+devAddr                 0x20004618     0x1  Data  Lc  ms5611.o [1]
+distributePower         0x08004781    0x84  Code  Lc  stabilizer.o [1]
+errDeadband             0x20004580     0x4  Data  Lc  stabilizer.o [1]
+eulerPitchActual        0x20004524     0x4  Data  Lc  stabilizer.o [1]
+eulerPitchDesired       0x20004530     0x4  Data  Lc  stabilizer.o [1]
+eulerRollActual         0x20004520     0x4  Data  Lc  stabilizer.o [1]
+eulerRollDesired        0x2000452c     0x4  Data  Lc  stabilizer.o [1]
+eulerYawActual          0x20004528     0x4  Data  Lc  stabilizer.o [1]
+eulerYawDesired         0x20004534     0x4  Data  Lc  stabilizer.o [1]
+exit                    0x0800b10b     0x4  Code  Gb  exit.o [3]
+extiInit                0x0800a92d    0x30  Code  Gb  exti.o [1]
+extiInterruptHandler    0x0800a969    0x1c  Code  Gb  exti.o [1]
+extiTest                0x0800a95d     0x6  Code  Gb  exti.o [1]
+fmod                    0x0800aa51          Code  Gb  fmod.o [4]
+fmodl                   0x0800aa51          Code  Gb  fmod.o [4]
+getPrio                 0x080084c5    0x22  Code  Lc  ledseq.o [1]
+gyro                    0x200043e4     0xc  Data  Lc  stabilizer.o [1]
+gyroBias                0x200038b8   0x30c  Data  Lc  imu.o [1]
+gyroMpu                 0x20004420     0x8  Data  Lc  imu.o [1]
+heapSTRUCT_SIZE         0x0800245e     0x2  Data  Lc  heap_2.o [1]
+hmc5883lEvaluateSelfTest
+                        0x08007fff    0x1e  Code  Gb  hmc5883l.o [1]
+hmc5883lGetHeading      0x08008051    0x62  Code  Gb  hmc5883l.o [1]
+hmc5883lInit            0x08007e31    0x40  Code  Gb  hmc5883l.o [1]
+hmc5883lSelfTest        0x08007ebd   0x142  Code  Gb  hmc5883l.o [1]
+hmc5883lSetGain         0x0800801d    0x18  Code  Gb  hmc5883l.o [1]
+hmc5883lSetMode         0x08008035    0x1c  Code  Gb  hmc5883l.o [1]
+hmc5883lTestConnection  0x08007e71    0x4c  Code  Gb  hmc5883l.o [1]
+i2cDmaInterruptHandlerI2c1
+                        0x080076f3    0x48  Code  Gb  i2cdev.o [1]
+i2cDmaInterruptHandlerI2c2
+                        0x0800773b    0x48  Code  Gb  i2cdev.o [1]
+i2cErrorInterruptHandlerI2c1
+                        0x080021b5    0x72  Code  Gb  i2croutines.o [1]
+i2cInterruptHandlerI2c1
+                        0x08002031   0x184  Code  Gb  i2croutines.o [1]
+i2cdevDmaEventI2c1      0x2000448c     0x4  Data  Gb  i2cdev.o [1]
+i2cdevDmaEventI2c2      0x20004490     0x4  Data  Gb  i2cdev.o [1]
+i2cdevInit              0x080071c5   0x164  Code  Gb  i2cdev.o [1]
+i2cdevRead              0x080073ad    0x78  Code  Gb  i2cdev.o [1]
+i2cdevReadBits          0x08007347    0x66  Code  Gb  i2cdev.o [1]
+i2cdevReadByte          0x08007329    0x1e  Code  Gb  i2cdev.o [1]
+i2cdevResetBusI2c1      0x080075cf   0x124  Code  Lc  i2cdev.o [1]
+i2cdevRuffLoopDelay     0x080075b3    0x1c  Code  Lc  i2cdev.o [1]
+i2cdevWrite             0x08007513    0xa0  Code  Gb  i2cdev.o [1]
+i2cdevWriteBit          0x08007443    0x5a  Code  Gb  i2cdev.o [1]
+i2cdevWriteBits         0x0800749d    0x76  Code  Gb  i2cdev.o [1]
+i2cdevWriteByte         0x08007425    0x1e  Code  Gb  i2cdev.o [1]
+iirLPFilterSingle       0x080086bb    0x3a  Code  Gb  filter.o [1]
+imu6Init                0x08004b25   0x186  Code  Gb  imu.o [1]
+imu6IsCalibrated        0x08004f33     0xa  Code  Gb  imu.o [1]
+imu6Read                0x08004d47   0x154  Code  Gb  imu.o [1]
+imu6Test                0x08004cab    0x9c  Code  Gb  imu.o [1]
+imu9Read                0x08004e9b    0x98  Code  Gb  imu.o [1]
+imuAccAlignToGravity    0x08005161    0xf0  Code  Lc  imu.o [1]
+imuAccIIRLPFilter       0x08005129    0x38  Code  Lc  imu.o [1]
+imuAccLpfAttFactor      0x2000460c     0x1  Data  Lc  imu.o [1]
+imuAddBiasValue         0x08005095    0x30  Code  Lc  imu.o [1]
+imuBiasInit             0x08004f43     0xc  Code  Lc  imu.o [1]
+imuCalculateVarianceAndMean
+                        0x08004f4f   0x146  Code  Lc  imu.o [1]
+imuFindBiasValue        0x080050c5    0x64  Code  Lc  imu.o [1]
+imuHasBarometer         0x08004f3d     0x6  Code  Gb  imu.o [1]
+initUsecTimer           0x0800af71    0x84  Code  Gb  usec_time.o [1]
+integralFBx             0x20004508     0x4  Data  Gb  sensfusion6.o [1]
+integralFBy             0x2000450c     0x4  Data  Gb  sensfusion6.o [1]
+integralFBz             0x20004510     0x4  Data  Gb  sensfusion6.o [1]
+internal_Pow            0x08002ec9   0x428  Code  Lc  pow.o [4]
+interruptCallback       0x080090e1    0x1c  Code  Lc  radiolink.o [1]
+interruptCb             0x200044d0     0x4  Data  Lc  nrf24l01.o [1]
+invSqrt                 0x08005a41    0x40  Code  Lc  sensfusion6.o [1]
+isConnected             0x0800916d    0x1a  Code  Lc  radiolink.o [1]
+isHmc5883lPresent       0x2000460d     0x1  Data  Lc  imu.o [1]
+isHmc5883lTestPassed    0x20004610     0x1  Data  Lc  imu.o [1]
+isInactive              0x200045fd     0x1  Data  Lc  commander.o [1]
+isInit                  0x200045fa     0x1  Data  Lc  adc.o [1]
+isInit                  0x200045fb     0x1  Data  Lc  comm.o [1]
+isInit                  0x200045fc     0x1  Data  Lc  commander.o [1]
+isInit                  0x20004601     0x1  Data  Lc  console.o [1]
+isInit                  0x20004602     0x1  Data  Lc  controller.o [1]
+isInit                  0x20004603     0x1  Data  Lc  crtp.o [1]
+isInit                  0x20004604     0x1  Data  Lc  crtpservice.o [1]
+isInit                  0x20004605     0x1  Data  Lc  exti.o [1]
+isInit                  0x20004608     0x1  Data  Lc  hmc5883l.o [1]
+isInit                  0x20004612     0x1  Data  Lc  imu.o [1]
+isInit                  0x20004613     0x1  Data  Lc  led.o [1]
+isInit                  0x20004614     0x1  Data  Lc  ledseq.o [1]
+isInit                  0x20004615     0x1  Data  Lc  motors.o [1]
+isInit                  0x20004617     0x1  Data  Lc  mpu6050.o [1]
+isInit                  0x20004619     0x1  Data  Lc  ms5611.o [1]
+isInit                  0x2000461b     0x1  Data  Lc  nrf24l01.o [1]
+isInit                  0x2000461c     0x1  Data  Lc  param.o [1]
+isInit                  0x2000461d     0x1  Data  Lc  pm.o [1]
+isInit                  0x2000461f     0x1  Data  Lc  radiolink.o [1]
+isInit                  0x20004620     0x1  Data  Lc  sensfusion6.o [1]
+isInit                  0x20004626     0x1  Data  Lc  stabilizer.o [1]
+isInit                  0x20004628     0x1  Data  Lc  system.o [1]
+isMpu6050TestPassed     0x2000460f     0x1  Data  Lc  imu.o [1]
+isMs5611Present         0x2000460e     0x1  Data  Lc  imu.o [1]
+isMs5611TestPassed      0x20004611     0x1  Data  Lc  imu.o [1]
+lastConv                0x200044c8     0x4  Data  Lc  ms5611.o [1]
+lastPacketTick          0x20004500     0x4  Data  Lc  radiolink.o [1]
+lastUpdate              0x20004460     0x4  Data  Lc  commander.o [1]
+ledInit                 0x08008d3d    0x4c  Code  Gb  led.o [1]
+ledSet                  0x08008d8f    0x52  Code  Gb  led.o [1]
+ledTest                 0x08008d89     0x6  Code  Gb  led.o [1]
+led_pin                 0x2000018c     0x8  Data  Lc  led.o [1]
+led_polarity            0x20000194     0x8  Data  Lc  led.o [1]
+led_port                0x20000184     0x8  Data  Lc  led.o [1]
+ledseqInit              0x0800824d    0x92  Code  Gb  ledseq.o [1]
+ledseqRun               0x080082ef    0x62  Code  Gb  ledseq.o [1]
+ledseqSem               0x200044bc     0x4  Data  Lc  ledseq.o [1]
+ledseqSetTimes          0x08008351     0x6  Code  Gb  ledseq.o [1]
+ledseqStop              0x08008357    0x58  Code  Gb  ledseq.o [1]
+ledseqTest              0x080082df    0x10  Code  Gb  ledseq.o [1]
+limitThrust             0x08004901    0x1a  Code  Lc  stabilizer.o [1]
+link                    0x2000019c     0x4  Data  Lc  crtp.o [1]
+lnbias                  0x08003308   0x420  Data  Lc  pow.o [4]
+mag                     0x20004440     0x8  Data  Lc  imu.o [1]
+mag                     0x200043fc     0xc  Data  Lc  stabilizer.o [1]
+main                    0x0800aeb5    0x18  Code  Gb  main.o [1]
+memcpy                  0x08001955     0xc  Code  Gb  memcpy.o [3]
+messageToPrint          0x200042c4    0x20  Data  Gb  console.o [1]
+mode                    0x20004607     0x1  Data  Gb  hmc5883l.o [1]
+motorPowerM1            0x2000458c     0x4  Data  Gb  stabilizer.o [1]
+motorPowerM2            0x20004588     0x4  Data  Gb  stabilizer.o [1]
+motorPowerM3            0x20004590     0x4  Data  Gb  stabilizer.o [1]
+motorPowerM4            0x20004584     0x4  Data  Gb  stabilizer.o [1]
+motorsInit              0x080049ad   0x11c  Code  Gb  motors.o [1]
+motorsSetRatio          0x08004ac9    0x46  Code  Gb  motors.o [1]
+mpu6050EvaluateSelfTest
+                        0x08007a21    0x22  Code  Gb  mpu6050.o [1]
+mpu6050GetDeviceID      0x08007dff    0x26  Code  Gb  mpu6050.o [1]
+mpu6050GetFullScaleAccelGPL
+                        0x08007bf9    0x42  Code  Gb  mpu6050.o [1]
+mpu6050GetFullScaleAccelRangeId
+                        0x08007bcf    0x2a  Code  Gb  mpu6050.o [1]
+mpu6050GetFullScaleGyroDPL
+                        0x08007aab    0x42  Code  Gb  mpu6050.o [1]
+mpu6050GetFullScaleGyroRangeId
+                        0x08007a81    0x2a  Code  Gb  mpu6050.o [1]
+mpu6050GetMotion6       0x08007ce9    0x88  Code  Gb  mpu6050.o [1]
+mpu6050Init             0x080077b1    0x22  Code  Gb  mpu6050.o [1]
+mpu6050Reset            0x08007d7d    0x1c  Code  Gb  mpu6050.o [1]
+mpu6050SelfTest         0x080077e7   0x23a  Code  Gb  mpu6050.o [1]
+mpu6050SetAccelXSelfTest
+                        0x08007b6f    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetAccelYSelfTest
+                        0x08007b8f    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetAccelZSelfTest
+                        0x08007baf    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetClockSource   0x08007ddd    0x22  Code  Gb  mpu6050.o [1]
+mpu6050SetDLPFMode      0x08007a5f    0x22  Code  Gb  mpu6050.o [1]
+mpu6050SetFullScaleAccelRange
+                        0x08007c3b    0x22  Code  Gb  mpu6050.o [1]
+mpu6050SetFullScaleGyroRange
+                        0x08007aed    0x22  Code  Gb  mpu6050.o [1]
+mpu6050SetGyroXSelfTest
+                        0x08007b0f    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetGyroYSelfTest
+                        0x08007b2f    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetGyroZSelfTest
+                        0x08007b4f    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetI2CBypassEnabled
+                        0x08007cad    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetIntEnabled    0x08007ccd    0x1c  Code  Gb  mpu6050.o [1]
+mpu6050SetRate          0x08007a43    0x1c  Code  Gb  mpu6050.o [1]
+mpu6050SetSleepEnabled  0x08007d99    0x20  Code  Gb  mpu6050.o [1]
+mpu6050SetTempSensorEnabled
+                        0x08007db9    0x24  Code  Gb  mpu6050.o [1]
+mpu6050TestConnection   0x080077d3    0x14  Code  Gb  mpu6050.o [1]
+ms5611CalcDeltaTemp     0x0800649d    0x14  Code  Gb  ms5611.o [1]
+ms5611CalcPressure      0x0800638b    0xcc  Code  Gb  ms5611.o [1]
+ms5611CalcTemp          0x08006457    0x46  Code  Gb  ms5611.o [1]
+ms5611EvaluateSelfTest  0x08006369    0x22  Code  Gb  ms5611.o [1]
+ms5611GetConversion     0x080064c9    0x46  Code  Gb  ms5611.o [1]
+ms5611GetData           0x08006581    0x9e  Code  Gb  ms5611.o [1]
+ms5611Init              0x08006299    0x42  Code  Gb  ms5611.o [1]
+ms5611PressureToAltitude
+                        0x0800661f    0x54  Code  Gb  ms5611.o [1]
+ms5611ReadPROM          0x0800650f    0x5e  Code  Gb  ms5611.o [1]
+ms5611Reset             0x0800656d    0x14  Code  Gb  ms5611.o [1]
+ms5611SelfTest          0x080062db    0x8e  Code  Gb  ms5611.o [1]
+ms5611StartConversion   0x080064b1    0x18  Code  Gb  ms5611.o [1]
+nopFunc1                0x08009019     0x6  Code  Lc  crtp.o [1]
+nopFunc2                0x0800901f     0x6  Code  Lc  crtp.o [1]
+nopLink                 0x2000012c    0x14  Data  Lc  crtp.o [1]
+nrfFlushRx              0x0800a34d    0x24  Code  Gb  nrf24l01.o [1]
+nrfFlushTx              0x0800a371    0x24  Code  Gb  nrf24l01.o [1]
+nrfInit                 0x0800a4ff   0x14e  Code  Gb  nrf24l01.o [1]
+nrfIsr                  0x0800a453    0x12  Code  Gb  nrf24l01.o [1]
+nrfRead1Reg             0x0800a335    0x18  Code  Gb  nrf24l01.o [1]
+nrfReadRX               0x0800a419    0x3a  Code  Gb  nrf24l01.o [1]
+nrfReadReg              0x0800a289    0x4a  Code  Gb  nrf24l01.o [1]
+nrfRxLength             0x0800a395    0x2a  Code  Gb  nrf24l01.o [1]
+nrfSetAddress           0x0800a4ad    0x30  Code  Gb  nrf24l01.o [1]
+nrfSetChannel           0x0800a46b    0x14  Code  Gb  nrf24l01.o [1]
+nrfSetDatarate          0x0800a47f    0x2e  Code  Gb  nrf24l01.o [1]
+nrfSetEnable            0x0800a4dd    0x22  Code  Gb  nrf24l01.o [1]
+nrfSetInterruptCallback
+                        0x0800a465     0x6  Code  Gb  nrf24l01.o [1]
+nrfTest                 0x0800a64d    0x10  Code  Gb  nrf24l01.o [1]
+nrfWrite1Reg            0x0800a323    0x12  Code  Gb  nrf24l01.o [1]
+nrfWriteAck             0x0800a3bf    0x5a  Code  Gb  nrf24l01.o [1]
+nrfWriteReg             0x0800a2d3    0x50  Code  Gb  nrf24l01.o [1]
+nvicInit                0x0800add5     0xc  Code  Gb  nvic.o [1]
+outBuffer               0x2000408c    0x40  Data  Lc  uart.o [1]
+p                       0x200042e4    0x20  Data  Gb  param.o [1]
+paramInit               0x08009de1    0x9e  Code  Gb  param.o [1]
+paramReadProcess        0x0800a0ed    0xc6  Code  Lc  param.o [1]
+paramTOCProcess         0x08009eef   0x14a  Code  Gb  param.o [1]
+paramTask               0x08009e89    0x66  Code  Lc  param.o [1]
+paramTest               0x08009e7f     0x8  Code  Gb  param.o [1]
+paramWriteProcess       0x0800a039    0xb4  Code  Lc  param.o [1]
+params                  0x200044d4     0x4  Data  Lc  param.o [1]
+paramsCount             0x200044e0     0x4  Data  Lc  param.o [1]
+paramsCrc               0x200044dc     0x4  Data  Lc  param.o [1]
+paramsLen               0x200044d8     0x4  Data  Lc  param.o [1]
+pidAlpha                0x200001d8     0x4  Data  Lc  stabilizer.o [1]
+pidAslFac               0x200001d4     0x4  Data  Lc  stabilizer.o [1]
+pidInit                 0x08006bfd    0x2c  Code  Gb  pid.o [1]
+pidPitch                0x200041ac    0x38  Data  Gb  controller.o [1]
+pidPitchRate            0x20004104    0x38  Data  Gb  controller.o [1]
+pidReset                0x08006cb9    0x12  Code  Gb  pid.o [1]
+pidRoll                 0x20004174    0x38  Data  Gb  controller.o [1]
+pidRollRate             0x200040cc    0x38  Data  Gb  controller.o [1]
+pidSetDesired           0x08006ccf     0x4  Code  Gb  pid.o [1]
+pidSetError             0x08006ccb     0x4  Code  Gb  pid.o [1]
+pidSetIntegralLimit     0x08006cb5     0x4  Code  Gb  pid.o [1]
+pidUpdate               0x08006c29    0x8c  Code  Gb  pid.o [1]
+pidYaw                  0x200041e4    0x38  Data  Gb  controller.o [1]
+pidYawRate              0x2000413c    0x38  Data  Gb  controller.o [1]
+pitchOutput             0x20004470     0x4  Data  Gb  controller.o [1]
+pitchRateDesired        0x2000453c     0x4  Data  Lc  stabilizer.o [1]
+pitchType               0x20004624     0x1  Data  Gb  stabilizer.o [1]
+pmBatteryChargeFromVoltage
+                        0x08006905    0x3c  Code  Lc  pm.o [1]
+pmBatteryIIRLPFilter    0x080068a9    0x26  Code  Lc  pm.o [1]
+pmBatteryUpdate         0x08006947    0x34  Code  Gb  pm.o [1]
+pmGetBatteryVoltage     0x08006941     0x6  Code  Gb  pm.o [1]
+pmInit                  0x080067b5    0xee  Code  Gb  pm.o [1]
+pmIsDischarging         0x08006a3f    0x1e  Code  Gb  pm.o [1]
+pmSetBatteryVoltage     0x080068cf    0x2a  Code  Lc  pm.o [1]
+pmSetChargeState        0x0800697b    0x4e  Code  Gb  pm.o [1]
+pmState                 0x2000461e     0x1  Data  Lc  pm.o [1]
+pmSystemShutdown        0x080068f9     0xc  Code  Lc  pm.o [1]
+pmTask                  0x08006a5d   0x14a  Code  Gb  pm.o [1]
+pmTest                  0x080068a3     0x6  Code  Gb  pm.o [1]
+pmUpdateState           0x080069c9    0x76  Code  Gb  pm.o [1]
+pow                     0x080032f7     0xe  Code  Gb  pow.o [4]
+pressure                0x20004548     0x4  Data  Lc  stabilizer.o [1]
+printHardFault          0x0800adf9    0x34  Code  Gb  nvic.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08000921    0x48  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x0800096d    0x3c  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x080010dd    0x4c  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                        0x080008b1    0x6a  Code  Lc  tasks.o [1]
+prvClockInit            0x0800aecd    0x9e  Code  Lc  main.o [1]
+prvCopyDataFromQueue    0x08001811    0x2c  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x08001789    0x88  Code  Lc  queue.o [1]
+prvDeleteTCB            0x080009a9    0x12  Code  Lc  tasks.o [1]
+prvGetNextExpireTime    0x08000f09    0x2e  Code  Lc  timers.o [1]
+prvHeapInit             0x080012fb    0x2e  Code  Lc  heap_2.o [1]
+prvIdleTask             0x080007bd    0x18  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x080007e5    0x70  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x08000855    0x54  Code  Lc  tasks.o [1]
+prvInsertTimerInActiveList
+                        0x08000f5f    0x50  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x080018a7    0x20  Code  Lc  queue.o [1]
+prvIsQueueFull          0x080018c7    0x22  Code  Lc  queue.o [1]
+prvProcessExpiredTimer  0x08000e59    0x46  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x08000faf    0xb4  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x08000ebb    0x4e  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x080009bb    0x2e  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x08000f37    0x28  Code  Lc  timers.o [1]
+prvSwitchTimerLists     0x08001063    0x7a  Code  Lc  timers.o [1]
+prvTaskExitError        0x08000bd9     0x8  Code  Lc  port.o [1]
+prvTimerTask            0x08000ea1    0x1a  Code  Lc  timers.o [1]
+prvUnlockQueue          0x0800183d    0x6a  Code  Lc  queue.o [1]
+pvPortMalloc            0x080011f5    0xc2  Code  Gb  heap_2.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x08000b4b    0x1e  Code  Gb  tasks.o [1]
+pvTimerGetTimerID       0x08001149    0x14  Code  Gb  timers.o [1]
+pxCurrentTCB            0x20004598     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x200045cc     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x2000459c     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x200045a0     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x200045d0     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x08000bbd    0x1c  Code  Gb  port.o [1]
+pxReadyTasksLists       0x20003ed0    0x64  Data  Lc  tasks.o [1]
+q0                      0x200001bc     0x4  Data  Gb  sensfusion6.o [1]
+q1                      0x20004514     0x4  Data  Gb  sensfusion6.o [1]
+q2                      0x20004518     0x4  Data  Gb  sensfusion6.o [1]
+q3                      0x2000451c     0x4  Data  Gb  sensfusion6.o [1]
+queues                  0x2000400c    0x40  Data  Lc  crtp.o [1]
+radioOp                 0x20000140    0x14  Data  Lc  radiolink.o [1]
+radiolinkGetLink        0x0800933d     0x4  Code  Gb  radiolink.o [1]
+radiolinkInit           0x080092ad    0x88  Code  Gb  radiolink.o [1]
+radiolinkInitNRF24L01P  0x08009247    0x66  Code  Lc  radiolink.o [1]
+radiolinkReInit         0x08009341    0x10  Code  Gb  radiolink.o [1]
+radiolinkTask           0x08009187    0xc0  Code  Lc  radiolink.o [1]
+radiolinkTest           0x08009335     0x8  Code  Gb  radiolink.o [1]
+readState               0x2000461a     0x1  Data  Lc  ms5611.o [1]
+receivePacket           0x08009135    0x24  Code  Lc  radiolink.o [1]
+reflect                 0x0800a7e9    0x2a  Code  Lc  crc.o [1]
+reset                   0x08009159    0x14  Code  Lc  radiolink.o [1]
+rollOutput              0x2000446c     0x4  Data  Gb  controller.o [1]
+rollRateDesired         0x20004538     0x4  Data  Lc  stabilizer.o [1]
+rollType                0x20004623     0x1  Data  Gb  stabilizer.o [1]
+runLedseq               0x080083b1   0x114  Code  Lc  ledseq.o [1]
+rxDataInterrupt         0x2000462c     0x1  Data  Lc  uart.o [1]
+rxQueue                 0x2000447c     0x4  Data  Lc  crtp.o [1]
+rxQueue                 0x200044fc     0x4  Data  Gb  radiolink.o [1]
+sendPacket              0x08009111    0x24  Code  Lc  radiolink.o [1]
+sensfusion6GetAccZWithoutGravity
+                        0x08005957    0xea  Code  Gb  sensfusion6.o [1]
+sensfusion6GetEulerRPY  0x08005793   0x1c4  Code  Gb  sensfusion6.o [1]
+sensfusion6Init         0x080052dd    0x14  Code  Gb  sensfusion6.o [1]
+sensfusion6Test         0x080052f1     0x8  Code  Gb  sensfusion6.o [1]
+sensfusion6UpdateQ      0x080052f9   0x49a  Code  Gb  sensfusion6.o [1]
+seq_alive               0x200000cc    0x18  Data  Gb  ledseq.o [1]
+seq_armed               0x2000009c    0x18  Data  Gb  ledseq.o [1]
+seq_bootloader          0x20000114    0x18  Data  Gb  ledseq.o [1]
+seq_calibrated          0x200000b4    0x18  Data  Gb  ledseq.o [1]
+seq_charged             0x20000164    0x10  Data  Gb  ledseq.o [1]
+seq_charging            0x200000fc    0x18  Data  Gb  ledseq.o [1]
+seq_linkup              0x200000e4    0x18  Data  Gb  ledseq.o [1]
+seq_lowbat              0x20000154    0x10  Data  Gb  ledseq.o [1]
+seq_testPassed          0x20000000    0x78  Data  Gb  ledseq.o [1]
+sequences               0x20000078    0x24  Data  Lc  ledseq.o [1]
+setAltHold              0x20004622     0x1  Data  Gb  stabilizer.o [1]
+setEnable               0x080090fd    0x14  Code  Lc  radiolink.o [1]
+side                    0x2000445c     0x4  Data  Lc  commander.o [1]
+sin                     0x08008245     0x6  Code  Gb  sin.o [4]
+sinPitch                0x200044b0     0x4  Data  Lc  imu.o [1]
+sinRoll                 0x200044b8     0x4  Data  Lc  imu.o [1]
+spiReceiveByte          0x0800a27f     0xa  Code  Lc  nrf24l01.o [1]
+spiSendByte             0x0800a245    0x3a  Code  Lc  nrf24l01.o [1]
+sqrt                    0x080099d9          Code  Gb  sqrt.o [4]
+sqrtl                   0x080099d9          Code  Gb  sqrt.o [4]
+stabilizerAltHoldUpdate
+                        0x080044af   0x2d2  Code  Lc  stabilizer.o [1]
+stabilizerInit          0x080041b5    0x62  Code  Gb  stabilizer.o [1]
+stabilizerTask          0x08004239   0x276  Code  Lc  stabilizer.o [1]
+stabilizerTest          0x08004217    0x22  Code  Gb  stabilizer.o [1]
+state                   0x20003f84    0x48  Data  Lc  ledseq.o [1]
+state                   0x20004504     0x4  Data  Lc  radiolink.o [1]
+strlen                  0x0800a879          Code  Gb  strlen.o [5]
+synch                   0x20004468     0x4  Data  Gb  console.o [1]
+systemInit              0x08005e07    0x40  Code  Gb  system.o [1]
+systemLaunch            0x08005de1    0x26  Code  Gb  system.o [1]
+systemSetCanFly         0x08005f3f     0x6  Code  Gb  system.o [1]
+systemStart             0x08005efb    0x12  Code  Gb  system.o [1]
+systemTask              0x08005e75    0x86  Code  Lc  system.o [1]
+systemTest              0x08005e47    0x2c  Code  Gb  system.o [1]
+systemWaitStart         0x08005f0d    0x32  Code  Gb  system.o [1]
+targetVal               0x200042a4    0x20  Data  Lc  commander.o [1]
+tempDeltaT              0x200044cc     0x4  Data  Lc  ms5611.o [1]
+temperature             0x20004544     0x4  Data  Lc  stabilizer.o [1]
+timer                   0x20004450     0x8  Data  Lc  ledseq.o [1]
+tmpQueue                0x20004478     0x4  Data  Lc  crtp.o [1]
+twoKi                   0x200001b8     0x4  Data  Gb  sensfusion6.o [1]
+twoKp                   0x200001b4     0x4  Data  Gb  sensfusion6.o [1]
+txQueue                 0x200044f8     0x4  Data  Gb  radiolink.o [1]
+uartDataDelivery        0x200045e0     0x4  Data  Lc  uart.o [1]
+uartIsr                 0x0800acf1    0xc0  Code  Gb  uart.o [1]
+ucHeap                  0x20000208  0x36b0  Data  Lc  heap_2.o [1]
+ulPortSetInterruptMask  0x0800119b          Code  Gb  portasm.o [1]
+updateActive            0x080084e7    0x46  Code  Lc  ledseq.o [1]
+usecTimerHighCount      0x200045e8     0x4  Data  Gb  usec_time.o [1]
+uxCriticalNesting       0x200001b0     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x200045a8     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08000d13    0x28  Code  Gb  list.o [1]
+uxPendedTicks           0x200045b8     0x4  Data  Lc  tasks.o [1]
+uxQueueMessagesWaiting  0x08001775    0x14  Code  Gb  queue.o [1]
+uxSchedulerSuspended    0x200045c8     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x200045c4     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x200045a4     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x200045b0     0x4  Data  Lc  tasks.o [1]
+vAccDeadband            0x200001e0     0x4  Data  Lc  stabilizer.o [1]
+vApplicationStackOverflowHook
+                        0x080011f1     0x2  Code  Gb  freeRTOSdebug.o [1]
+vBiasAlpha              0x200001ec     0x4  Data  Lc  stabilizer.o [1]
+vListInitialise         0x08000c9d    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x08000cbb     0x6  Code  Gb  list.o [1]
+vListInsert             0x08000cd9    0x3a  Code  Gb  list.o [1]
+vListInsertEnd          0x08000cc1    0x18  Code  Gb  list.o [1]
+vPortClearInterruptMask
+                        0x080011a9          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x08000c1f    0x1a  Code  Gb  port.o [1]
+vPortExitCritical       0x08000c39    0x1c  Code  Gb  port.o [1]
+vPortFree               0x080012b7    0x44  Code  Gb  heap_2.o [1]
+vPortSVCHandler         0x080011af          Code  Gb  portasm.o [1]
+vPortSetupTimerInterrupt
+                        0x08000c75     0xe  Code  Wk  port.o [1]
+vPortStartFirstTask     0x080011cf          Code  Gb  portasm.o [1]
+vPortYield              0x08000c0d    0x12  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x080018e9    0x28  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x08001915    0x40  Code  Gb  queue.o [1]
+vSpeed                  0x20004568     0x4  Data  Lc  stabilizer.o [1]
+vSpeedASL               0x20004560     0x4  Data  Lc  stabilizer.o [1]
+vSpeedASLDeadband       0x200001e4     0x4  Data  Lc  stabilizer.o [1]
+vSpeedASLFac            0x2000457c     0x4  Data  Lc  stabilizer.o [1]
+vSpeedAcc               0x20004564     0x4  Data  Lc  stabilizer.o [1]
+vSpeedAccFac            0x200001dc     0x4  Data  Lc  stabilizer.o [1]
+vSpeedLimit             0x200001e8     0x4  Data  Lc  stabilizer.o [1]
+vTaskDelay              0x080002a5    0x5c  Code  Gb  tasks.o [1]
+vTaskDelayUntil         0x08000215    0x90  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x080007b1     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x08000615    0x6a  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x0800067f    0x4c  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x08000a15    0xac  Code  Gb  tasks.o [1]
+vTaskSetApplicationTaskTag
+                        0x08000565    0x22  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x0800073f    0x12  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x08000301    0x4c  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x0800034d    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08000587    0x8e  Code  Gb  tasks.o [1]
+variableGetIndex        0x0800a1b9    0x40  Code  Lc  param.o [1]
+varianceSampleTime      0x200044a8     0x4  Data  Lc  imu.o [1]
+waitUntilSendDone       0x200045dc     0x4  Data  Gb  uart.o [1]
+workerInit              0x080088d5    0x1a  Code  Gb  worker.o [1]
+workerLoop              0x08008901    0x68  Code  Gb  worker.o [1]
+workerQueue             0x200045ec     0x4  Data  Lc  worker.o [1]
+workerTest              0x080088ef    0x12  Code  Gb  worker.o [1]
+xActiveTimerList1       0x2000437c    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x20004390    0x14  Data  Lc  timers.o [1]
+xDelayedTaskList1       0x20004318    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000432c    0x14  Data  Lc  tasks.o [1]
+xEnd                    0x20004410     0x8  Data  Lc  heap_2.o [1]
+xFreeBytesRemaining     0x200001a0     0x4  Data  Lc  heap_2.o [1]
+xHigherPriorityTaskWoken
+                        0x200045e4     0x4  Data  Lc  uart.o [1]
+xNextTaskUnblockTime    0x200001fc     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x200045c0     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20004340    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x0800115d          Code  Gb  portasm.o [1]
+xPortStartScheduler     0x08000be1    0x2c  Code  Gb  port.o [1]
+xQueueCreateMutex       0x08001403    0x58  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x080013af    0x54  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x08001639   0x13c  Code  Gb  queue.o [1]
+xQueueGenericReset      0x08001341    0x6e  Code  Gb  queue.o [1]
+xQueueGenericSend       0x0800145b    0xfa  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x08001555    0x76  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x080015cb    0x6e  Code  Gb  queue.o [1]
+xQueueRegistry          0x20003f34    0x50  Data  Gb  queue.o [1]
+xSchedulerRunning       0x200045b4     0x4  Data  Lc  tasks.o [1]
+xStart                  0x20004408     0x8  Data  Lc  heap_2.o [1]
+xSuspendedTaskList      0x20004368    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x08000751    0x60  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x080000ed   0x128  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x080009e9    0x26  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x08000439     0xa  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x08000443   0x122  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x08000ac1    0x8a  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x080006cb    0x74  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x0800035d    0xdc  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20004354    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x200045ac     0x4  Data  Lc  tasks.o [1]
+xTimerCreate            0x08000da3    0x4e  Code  Gb  timers.o [1]
+xTimerCreateTimerTask   0x08000d69    0x3a  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x08000df1    0x68  Code  Gb  timers.o [1]
+xTimerQueue             0x200045d4     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x200045bc     0x4  Data  Lc  tasks.o [1]
+yawOutput               0x20004474     0x4  Data  Gb  controller.o [1]
+yawRateDesired          0x20004540     0x4  Data  Lc  stabilizer.o [1]
+yawType                 0x20004625     0x1  Data  Gb  stabilizer.o [1]
+
+
+[1] = D:\data\quadcopter\devfiles\code\crazyflie-firm\project\Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  45 268 bytes of readonly  code memory
+   1 016 bytes of readonly  data memory
+  20 013 bytes of readwrite data memory
+
+Errors: none
+Warnings: 2

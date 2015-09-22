@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="PreferencesImportWizard">
+		<item value="H:\专业软件\eclipse-cpp-kepler-SR1-win32\colorThems\MyEclipseSettings_5.epf" key=""/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\tools\Elipse\colorThems\MyEclipseSettings_6.epf"/>
+			<item value="D:\tools\Elipse\colorThems\MyEclipseSettings_5.epf"/>
+			<item value="H:\专业软件\eclipse-cpp-kepler-SR1-win32\colorThems\MyEclipseSettings_5.epf"/>
+		</list>
+	</section>
+	<section name="PreferencesExportWizard">
+		<item value="D:\tools\Elipse\colorThems\MyEclipseSettings_6.epf" key=""/>
+		<item value="false" key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="true" key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\tools\Elipse\colorThems\MyEclipseSettings_6.epf"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\ARM_CM3"/>
+			<item value="D:\data\quadcopter\myCrazyflie"/>
+			<item value="D:\data\quadcopter\refers\freeRTOS\freeRTOSDemo"/>
+			<item value="D:\dragonFly1"/>
+			<item value="D:\data\quadcopter\devfiles\code\crazyfliefirmware\bitcraze-crazyflie-firmware-f826511b6a16"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="1025" key="dialogWidth"/>
+		<item value="526" key="dialogHeight"/>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="textEntries">
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="335" key="DIALOG_Y_ORIGIN"/>
+		<item value="707" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.export.Preferences" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+</section>

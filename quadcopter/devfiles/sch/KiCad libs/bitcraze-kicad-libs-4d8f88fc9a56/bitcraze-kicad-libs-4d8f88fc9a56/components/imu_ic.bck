@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0  Date: 2012-03-21 10:02:46
+#
+$CMP BMA145
+D 3 axis MEMS analog accelerometer
+K mems acc accelerometer analog
+$ENDCMP
+#
+$CMP IDG500
+D MEMS analog 2 axis X-Y gyro
+K gyro 2 axis mems analog
+$ENDCMP
+#
+$CMP ISZ500
+D Single-Axis MEMS Z-Gyroscope
+K mems gyro z
+$ENDCMP
+#
+$CMP MPU60X0
+D Gyro and accelerometer, 6 DOF
+$ENDCMP
+#
+#End Doc Library
